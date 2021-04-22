@@ -420,14 +420,14 @@ button:focus {
 
 /* Box button */
 .boxbutton {
-	font-size: 2em;
+	font-size: 1.5em;
 	display: block;
 	width: 2em;
 	height: 2em;
 	margin: 0;
 	padding: 0;
 	color: #fff;
-	border: 0;
+	border: 1px solid #fff;
 	background: #d7d7dc;
 }
 
@@ -977,15 +977,21 @@ button:focus {
 
 .seat {
 	position:absolute;
-	border:2px solid #000;
+	width:4vmin;
+	height:8vmin;
+	border:1px solid #000;
 	text-align: center;
 	color:#000;
-	font-size:13px;
+	font-size:10px;
+}
+.seat span{
+	display:block;
 }
 
-.seat.seat-4-1{top:11vmin; left:11vmin;}
-.seat.seat-4-2{top:21vmin; left:11vmin;}
-.seat.seat-4-3{top:31vmin; left:11vmin;}
-.seat.seat-4-4{top:41vmin; left:11vmin;}
-.seat.seat-4-5{top:51vmin; left:11vmin;}
-.seat.seat-4-6{top:61vmin; left:11vmin;}
+.seat.seat-4-1{top:29.5vmin; left:14vmin;}
+.seat.seat-4-2{top:37.5vmin; left:14vmin;}
+.seat.seat-4-3{top:45.5vmin; left:14vmin;}
+.seat.seat-4-4{top:53.5vmin; left:14vmin; width:8vmin; height:5vmin;}
+.seat.seat-4-5{top:29.5vmin; left:34vmin;}
+.seat.seat-4-6{top:37.5vmin; left:34vmin;}
+.seat.seat-4-7{top:45.5vmin; left:34vmin;}
