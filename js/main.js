@@ -67,6 +67,7 @@
 		levelDownCtrl = mallNav.querySelector('.mallnav__button--down'),
 		// pins
 		pins = [].slice.call(mallLevelsEl.querySelectorAll('.pin')),
+		fbtns = [].slice.call(mallLevelsEl.querySelectorAll('.mallnav__button')),
 		// content element
 		contentEl = document.querySelector('.content'),
 		// content close ctrl
@@ -109,6 +110,12 @@
 	function initEvents() {
 		// click on a Mall´s level
 		mallLevels.forEach(function(level, pos) {
+			level.addEventListener('click', function() {
+				// shows this level
+				showLevel(pos+1);
+			});
+		});
+		fbtns.forEach(function(level, pos) {
 			level.addEventListener('click', function() {
 				// shows this level
 				showLevel(pos+1);
