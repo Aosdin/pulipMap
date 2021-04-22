@@ -359,6 +359,10 @@ button:focus {
 /* Current level */
 
 .level.level--current {
+
+
+
+
 	-webkit-transform: translateZ(15vmin) rotate3d(0,0,1,20deg);
 	/* go to center */
 	/*transform: translateZ(15vmin) rotate3d(0,0,1,20deg);*/
