@@ -979,5 +979,13 @@ button:focus {
 	position:absolute;
 	border:2px solid #000;
 	text-align: center;
+	color:#000;
 	font-size:13px;
 }
+
+.seat.seat-4-1{top:11vmin; left:11vmin;}
+.seat.seat-4-2{top:21vmin; left:11vmin;}
+.seat.seat-4-3{top:31vmin; left:11vmin;}
+.seat.seat-4-4{top:41vmin; left:11vmin;}
+.seat.seat-4-5{top:51vmin; left:11vmin;}
+.seat.seat-4-6{top:61vmin; left:11vmin;}
