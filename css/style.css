@@ -152,7 +152,7 @@ button:focus {
 	top: 0;
 	left: 0;
 	overflow: hidden;
-	width: calc(100vw - 300px);
+	width: calc(100vw - 150px);
 	height: 100vh;
 }
 
@@ -172,8 +172,8 @@ button:focus {
 }
 
 .mall.mall--content-open {
-	-webkit-transform: translate3d(0,-25%,0) scale3d(0.8,0.8,1);
-	transform: translate3d(0,-25%,0) scale3d(0.8,0.8,1);
+	-webkit-transform: translate3d(0,-5%,0) scale3d(1,1,1);
+	transform: translate3d(0,-5%,0) scale3d(1,1,1);
 }
 
 .surroundings,
@@ -221,6 +221,12 @@ button:focus {
 	transform: rotateX(70deg) rotateZ(-45deg) translateZ(-15vmin);
 }
 
+/* 평면도 추가 */
+.levels.levels--open {
+	-webkit-transform: rotateX(0) rotateZ(0) translateZ(0);
+	transform: rotateX(0) rotateZ(0) translateZ(0);
+}
+
 .level {
 	position: relative;
 	width: 100%;
@@ -258,8 +264,10 @@ button:focus {
 }
 
 .level--current::after {
-	-webkit-transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg) translateZ(5vmin) translateX(5vmin) translateY(-10vmin);
-	transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg) translateZ(5vmin) translateX(5vmin) translateY(-10vmin);
+	/*-webkit-transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg) translateZ(5vmin) translateX(5vmin) translateY(-10vmin);*/
+	/*transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg) translateZ(5vmin) translateX(5vmin) translateY(-10vmin);*/
+	-webkit-transform: rotateZ(0) rotateZ(0) rotateX(0) translateZ(0) translateX(0) translateY(0);
+	transform: rotateZ(0) rotateZ(0) rotateX(0) translateZ(0) translateX(0) translateY(0);
 }
 
 .level--1::after {
@@ -359,10 +367,11 @@ button:focus {
 /* Current level */
 
 .level.level--current {
-	-webkit-transform: translateZ(15vmin) rotate3d(0,0,1,20deg);
+	-webkit-transform: translateZ(15vmin) rotate3d(0,0,0,0);
+	transform: translateZ(15vmin) rotate3d(0,0,0,0);
 	/* go to center */
+	/*-webkit-transform: translateZ(15vmin) rotate3d(0,0,1,20deg);*/
 	/*transform: translateZ(15vmin) rotate3d(0,0,1,20deg);*/
-	transform: translateZ(19vmin) rotate3d(-108,-60,77,84deg);
 }
 
 /* Navigation classes */
@@ -487,7 +496,7 @@ button:focus {
 	position: absolute;
 	top: 100%;
 	width: 100%;
-	height: 50%;
+	height: 25%;
 }
 
 .content__item {
@@ -605,7 +614,7 @@ button:focus {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 300px;
+	width: 150px;
 	min-height: 100vh;
 	padding: 5em 0 1em;
 	background: #fff;
@@ -616,7 +625,7 @@ button:focus {
 	z-index: 100;
 	top: 0;
 	right: 0;
-	left: calc(100vw - 300px);
+	left: calc(100vw - 150px);
 }
 
 .search__input {
@@ -769,12 +778,15 @@ button:focus {
 }
 
 .pin {
+	display:none;
 	position: absolute;
 	width: 5.5vmin;
 	height: 8.25vmin;
 	margin: -8.25vmin 0 0 -2.25vmin; /* let the bottom tip be the reference point for individual coordinates */
-	-webkit-transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg);
-	transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg);
+	/*-webkit-transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg);*/
+	/*transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg);*/
+	-webkit-transform: rotateZ(0) rotateZ(0) rotateX(0);
+	transform: rotateZ(0) rotateZ(0) rotateX(0);
 	-webkit-transform-origin: 50% 100%;
 	transform-origin: 50% 100%;
 	-webkit-transform-style: preserve-3d;
