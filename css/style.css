@@ -361,7 +361,8 @@ button:focus {
 .level.level--current {
 	-webkit-transform: translateZ(15vmin) rotate3d(0,0,1,20deg);
 	/* go to center */
-	transform: translateZ(15vmin) rotate3d(0,0,1,20deg);
+	/*transform: translateZ(15vmin) rotate3d(0,0,1,20deg);*/
+	transform: translateZ(19vmin) rotate3d(-108,-60,77,84deg);
 }
 
 /* Navigation classes */
