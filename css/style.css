@@ -728,7 +728,8 @@ button:focus {
 }
 
 .list__item::after {
-	content: 'L' attr(data-level) ' / ' attr(data-space);
+	content:none;
+	/*content: 'L' attr(data-level) ' / ' attr(data-space);*/
 	font-size: 0.65em;
 	line-height: 3;
 	position: absolute;
@@ -857,18 +858,18 @@ button:focus {
 
 .icon--logo {
 	position: absolute;
-	top: 14%;
+	top: 12%;
 	left: 18%;
-	width: 50%;
-	height: 50%;
+	width: 65%;
+	height: 45%;
 	fill: white;
 	fill-opacity: 0.6;
 	-webkit-transition: fill-opacity 0.3s;
 	transition: fill-opacity 0.3s;
 }
 .icon--logo img {
-	width: 40px;
-	height: 40px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 }
 .pin--active .icon--logo,
@@ -907,13 +908,13 @@ button:focus {
 .pin--3-7 { top: 32vmin; left: 37vmin; }
 
 /* Pins for floor 4 */
-.pin--4-1 { top: 55vmin; left: 21vmin; }
-.pin--4-2 { top: 18vmin; left: 20vmin; }
-.pin--4-3 { top: 21vmin; left: 88vmin; }
-.pin--4-4 { top: 52vmin; left: 74vmin; }
-.pin--4-5 { top: 33vmin; left: 38vmin; }
-.pin--4-6 { top: 39vmin; left: 56vmin; }
-.pin--4-7 { top: 58vmin; left: 10vmin; }
+.pin--4-1 { top: 52vmin; left: 37vmin; }
+.pin--4-2 { top: 44vmin; left: 34vmin; }
+.pin--4-3 { top: 35vmin; left: 34vmin; }
+.pin--4-4 { top: 45vmin; left: 58vmin; }
+.pin--4-5 { top: 25vmin; left: 34vmin; }
+.pin--4-6 { top: 35vmin; left: 58vmin; }
+.pin--4-7 { top: 25vmin; left: 58vmin; }
 
 /* Mobile compatability */
 .open-search,
