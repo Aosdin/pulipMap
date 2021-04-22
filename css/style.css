@@ -206,9 +206,9 @@ button:focus {
 }
 
 .levels {
-	width: 96vmin;
-	height: 64vmin;
-	margin: -32vmin 0 0 -48vmin;
+	width: 100vmin;
+	height: 80vmin;
+	margin: -40vmin 0 0 -50vmin;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transform-style: preserve-3d;
@@ -973,4 +973,11 @@ button:focus {
 		padding-right: 4em;
 		text-align: left;
 	}
+}
+
+.seat {
+	position:absolute;
+	border:2px solid #000;
+	text-align: center;
+	font-size:13px;
 }
