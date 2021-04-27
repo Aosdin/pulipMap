@@ -67,7 +67,7 @@
 		levelDownCtrl = mallNav.querySelector('.mallnav__button--down'),
 		// pins
 		pins = [].slice.call(mallLevelsEl.querySelectorAll('.pin')),
-		fbtns = [].slice.call(mallLevelsEl.querySelectorAll('.mallnav__button')),
+		fbtns = [].slice.call(mallNav.querySelectorAll('.mallnav__button—floor')),
 		// content element
 		contentEl = document.querySelector('.content'),
 		// content close ctrl
@@ -118,7 +118,25 @@
 		fbtns.forEach(function(level, pos) {
 			level.addEventListener('click', function() {
 				// shows this level
-				showLevel(pos+1);
+				console.log(selectedLevel)
+
+				// console.log(pos)
+				// showAllLevels();
+				var f = {
+					0: 4,
+					1: 3,
+					2: 2,
+					3: 1
+				}
+				var len = selectedLevel > f[pos] ? selectedLevel - f[pos] : f[pos] - selectedLevel;
+				for (var i = 0; i < len; i++) {
+					navigate(selectedLevel > f[pos] ? 'Up' : 'Down');
+				}
+
+				// console.log(level, pos, f[pos])
+				// setTimeout(function () {
+				// 	showLevel(f[pos]);
+				// }, 1000)
 			});
 		});
 
@@ -207,7 +225,6 @@
 		if( isExpanded ) {
 			return false;
 		}
-
 		// update selected level val
 		selectedLevel = level;
 
@@ -331,10 +348,10 @@
 	 * Navigate through the mall´s levels
 	 */
 	function navigate(direction) {
-		if( isNavigating || !isExpanded || isOpenContentArea ) {
-			return false;
-		}
-		isNavigating = true;
+		// if( isNavigating || !isExpanded || isOpenContentArea ) {
+		// 	return false;
+		// }
+		// isNavigating = true;
 
 		var prevSelectedLevel = selectedLevel;
 
