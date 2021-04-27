@@ -352,7 +352,7 @@
 		// 	return false;
 		// }
 		// isNavigating = true;
-
+		if (isOpenContentArea) closeContentArea()
 		var prevSelectedLevel = selectedLevel;
 
 		// current level
@@ -448,7 +448,7 @@
 			classie.remove(activeSpaceArea, 'map__space--selected');
 		}
 		// svg area gets selected
-		classie.add(mallLevels[selectedLevel - 1].querySelector('svg > .map__space[data-space="' + spaceref + '"]'), 'map__space--selected');
+		if (classie) classie.add(mallLevels[selectedLevel - 1].querySelector('svg > .map__space[data-space="' + spaceref + '"]'), 'map__space--selected');
 	}
 
 	/**
