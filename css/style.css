@@ -321,9 +321,13 @@ button:focus {
 .levels--selected-2 .level:not(.level--2),
 .levels--selected-3 .level:not(.level--3),
 .levels--selected-4 .level:not(.level--4) {
-	display:none;
-	/*opacity: 0;*/
+	/*display:none;*/
+	opacity: 0;
 	/* fade out all others */
+}
+
+.levels--open .level:not(.level--current){
+	display:none;
 }
 
 /* Other levels */
