@@ -152,7 +152,7 @@ button:focus {
 	top: 0;
 	left: 0;
 	overflow: hidden;
-	width: calc(100vw - 180px);
+	width: calc(100vw - 215px);
 	height: 100vh;
 }
 
@@ -626,7 +626,7 @@ button:focus {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 180px;
+	width: 215px;
 	min-height: 100vh;
 	padding: 5em 0 1em;
 	background: #fff;
@@ -637,7 +637,7 @@ button:focus {
 	z-index: 100;
 	top: 0;
 	right: 0;
-	left: calc(100vw - 180px);
+	left: calc(100vw - 215px);
 }
 
 .search__input {
@@ -721,7 +721,7 @@ button:focus {
 .grouped-by-category :not([data-category='10']) + [data-category='10'],
 .grouped-by-category [data-category='11']:first-child,
 .grouped-by-category :not([data-category='11']) + [data-category='11'] {
-	margin-top: 2em;
+	margin-top: 4em;
 }
 
 .grouped-by-category [data-category='1']:first-child::before,
@@ -747,8 +747,10 @@ button:focus {
 .grouped-by-category [data-category='11']:first-child::before,
 .grouped-by-category :not([data-category='11']) + [data-category='11']::before {
 	font-size: 0.8em;
+	line-height:1.2;
+	padding:10px 0;
 	position: absolute;
-	top: -1.75em;
+	top: -2.5em;
 	left: 0;
 	color: #c7c7c9;
 }
@@ -764,30 +766,39 @@ button:focus {
 	content: '디지털커뮤니케이션사업부 \A 기획그룹';
 	color: #6584c7;
 	white-space: pre;
+	top: -3.5em;
 }
 
 .grouped-by-category [data-category='3']:first-child::before,
 .grouped-by-category :not([data-category='3']) + [data-category='3']::before {
-	content: '디지털커뮤니케이션사업부 > 디자인그룹';
+	content: '디지털커뮤니케이션사업부 \A 디자인그룹';
 	color: #dc4b7c;
+	white-space: pre;
+	top: -3.5em;
 }
 
 .grouped-by-category [data-category='4']:first-child::before,
 .grouped-by-category :not([data-category='4']) + [data-category='4']::before {
-	content: '디지털커뮤니케이션사업부 > UX그룹';
+	content: '디지털커뮤니케이션사업부 \A UX그룹';
 	color: #8d65e0;
+	white-space: pre;
+	top: -3.5em;
 }
 
 .grouped-by-category [data-category='5']:first-child::before,
 .grouped-by-category :not([data-category='5']) + [data-category='5']::before {
-	content: '디지털마케팅그룹 > 전략본부';
+	content: '디지털마케팅그룹 \A 전략본부';
 	color: #8d65e0;
+	white-space: pre;
+	top: -3.5em;
 }
 
 .grouped-by-category [data-category='6']:first-child::before,
 .grouped-by-category :not([data-category='6']) + [data-category='6']::before {
-	content: '디지털마케팅그룹 > 제작본부';
+	content: '디지털마케팅그룹 \A 제작본부';
 	color: #8d65e0;
+	white-space: pre;
+	top: -3.5em;
 }
 
 .grouped-by-category [data-category='7']:first-child::before,
