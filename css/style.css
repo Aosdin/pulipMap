@@ -717,7 +717,7 @@ button:focus {
 .grouped-by-category :not([data-category='10']) + [data-category='10'],
 .grouped-by-category [data-category='11']:first-child,
 .grouped-by-category :not([data-category='11']) + [data-category='11'] {
-	margin-top: 4em;
+	margin-top: 2em;
 }
 
 .grouped-by-category [data-category='1']:first-child::before,
@@ -742,7 +742,7 @@ button:focus {
 .grouped-by-category :not([data-category='10']) + [data-category='10']::before,
 .grouped-by-category [data-category='11']:first-child::before,
 .grouped-by-category :not([data-category='11']) + [data-category='11']::before {
-	font-size: 1.25em;
+	font-size: 0.8em;
 	position: absolute;
 	top: -1.75em;
 	left: 0;
@@ -757,8 +757,9 @@ button:focus {
 
 .grouped-by-category [data-category='2']:first-child::before,
 .grouped-by-category :not([data-category='2']) + [data-category='2']::before {
-	content: '디지털커뮤니케이션사업부 > 기획그룹';
+	content: '디지털커뮤니케이션사업부 \A 기획그룹';
 	color: #6584c7;
+	white-space: pre;
 }
 
 .grouped-by-category [data-category='3']:first-child::before,
@@ -774,43 +775,43 @@ button:focus {
 }
 
 .grouped-by-category [data-category='5']:first-child::before,
-.grouped-by-category :not([data-category='5']) + [data-category='4']::before {
+.grouped-by-category :not([data-category='5']) + [data-category='5']::before {
 	content: '디지털마케팅그룹 > 전략본부';
 	color: #8d65e0;
 }
 
 .grouped-by-category [data-category='6']:first-child::before,
-.grouped-by-category :not([data-category='6']) + [data-category='4']::before {
+.grouped-by-category :not([data-category='6']) + [data-category='6']::before {
 	content: '디지털마케팅그룹 > 제작본부';
 	color: #8d65e0;
 }
 
 .grouped-by-category [data-category='7']:first-child::before,
-.grouped-by-category :not([data-category='7']) + [data-category='4']::before {
+.grouped-by-category :not([data-category='7']) + [data-category='7']::before {
 	content: '디지털익스피어리언스그룹';
 	color: #8d65e0;
 }
 
 .grouped-by-category [data-category='8']:first-child::before,
-.grouped-by-category :not([data-category='8']) + [data-category='4']::before {
+.grouped-by-category :not([data-category='8']) + [data-category='8']::before {
 	content: '디지털솔루션즈그룹';
 	color: #8d65e0;
 }
 
 .grouped-by-category [data-category='9']:first-child::before,
-.grouped-by-category :not([data-category='9']) + [data-category='4']::before {
-	content: '연구소 > 운영팀';
-	color: #8d65e0;
-}
-
-.grouped-by-category [data-category='10']:first-child::before,
-.grouped-by-category :not([data-category='10']) + [data-category='4']::before {
+.grouped-by-category :not([data-category='9']) + [data-category='9']::before {
 	content: '연구소 > 개발팀';
 	color: #8d65e0;
 }
 
+.grouped-by-category [data-category='10']:first-child::before,
+.grouped-by-category :not([data-category='10']) + [data-category='10']::before {
+	content: '연구소 > 운영팀';
+	color: #8d65e0;
+}
+
 .grouped-by-category [data-category='11']:first-child::before,
-.grouped-by-category :not([data-category='11']) + [data-category='4']::before {
+.grouped-by-category :not([data-category='11']) + [data-category='11']::before {
 	content: '브랜드커뮤니케이션그룹';
 	color: #8d65e0;
 }
