@@ -1,8 +1,8 @@
-<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
-	<title>SEAT</title>
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1583 708" width="1583" height="708">
+	<title>SEAT(svg)</title>
 	<defs>
 		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
-			<path d="M0 0L1920 0L1920 1080L0 1080Z" />
+			<path d="M0 0L1583 0L1583 708L0 708Z" />
 		</clipPath>
 		<image  width="1920" height="1080" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4AQMAAADSHVMAAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAARNJREFUeJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCnAfjlAAGZJYkPAAAAAElFTkSuQmCC"/>
 		<image  width="659" height="700" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAApMAAAK8CAMAAACEMsQsAAAAAXNSR0IB2cksfwAAADZQTFRF7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u4qFibwAAABJ0Uk5TAA7/CgQMAhIGEO/x+f379fP3YqBJ6gAACClJREFUeJzt2Vl21FAQBUHMYIzBGPa/WVgA0l+58pmIFaiv8rSmDx/4Hz1sH8Cdj/zb9omZ9bA97w1NXtmuZpYmT7RdzSxNnmi7mlmaPNF2NbM0eaLtamZp8kTb1czS5Im2q5mlyRNtVzNLkyfarmaWJk+0Xc0sTZ5ou5pZmjzRdjWzNHmi7WpmafJE29XM0uSJtquZpckTbVczS5Mn2q5mliZPtF3NLE2eaLuaWZo80XY1szR5ou1qZmnyRNvVzNLkibarmaXJE21XM0uTJ9quZpYmT7RdzSxNnmi7mlmaPNGn7WxGfdqe94Ymr3zezmbUl+15b2jyynY1s1y7T7RdzSz/kyd63M5m1NfteW9o8srTdjajvm3Pe0OTV973M477yRNpcosmr2hyiyavaHKLJq9ocosmr2hyiyavvO8mvQs60XY1s562572hySvv+zvO4/a8NzR55fn7j5efr7/ewu+Xl9fnt/P3d/163p73hiap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJajRJjSap0SQ1mqRGk9RokhpNUqNJav4AMpbOsZ5qCtsAAAAASUVORK5CYII="/>
@@ -25,39 +25,33 @@
 	</defs>
 	<style>
 		tspan { white-space:pre }
-		.txt0 { font-size: 36px;fill: #000000;font-weight: 800;font-family: "V DL";text-anchor: start } 
 	</style>
 	<g id="Artboard 1" clip-path="url(#cp1)">
 		<g id="좌석배치도">
-			<use id="Layer 7" href="#img1" x="0" y="0" />
+			<use id="Layer 7" href="#img1" x="-169" y="-187" />
 			<g id="02">
 				<g id="4F">
-					<use id="area" style="opacity: 0.6" href="#img2" x="173" y="190" />
-					<use id="layout" style="opacity: 0.18" href="#img3" x="169" y="187" />
-					<use id="seats copy 7" style="mix-blend-mode: exclusion" href="#img4" x="247" y="395" />
+					<use id="area" style="opacity: 0.6" href="#img2" x="4" y="3" />
+					<use id="layout" style="opacity: 0.18" href="#img3" x="0" y="0" />
+					<use id="seats copy 7" style="mix-blend-mode: exclusion" href="#img4" x="78" y="208" />
 					<g id="Group 1">
-						<use id="Layer 3" href="#img5" x="277" y="396" />
-						<use id="Layer 3 copy 7" href="#img6" x="348" y="396" />
-						<use id="Layer 3 copy 8" href="#img7" x="348" y="503" />
-						<use id="Layer 3 copy 9" href="#img8" x="348" y="610" />
-						<use id="Layer 3 copy 10" href="#img9" x="277" y="717" />
-						<use id="Layer 3 copy 5" href="#img10" x="277" y="503" />
-						<use id="Layer 3 copy 6" href="#img11" x="277" y="610" />
+						<use id="Layer 3" href="#img5" x="108" y="209" />
+						<use id="Layer 3 copy 7" href="#img6" x="179" y="209" />
+						<use id="Layer 3 copy 8" href="#img7" x="179" y="316" />
+						<use id="Layer 3 copy 9" href="#img8" x="179" y="423" />
+						<use id="Layer 3 copy 10" href="#img9" x="108" y="530" />
+						<use id="Layer 3 copy 5" href="#img10" x="108" y="316" />
+						<use id="Layer 3 copy 6" href="#img11" x="108" y="423" />
 					</g>
 					<g id="Group 1">
-						<use id="Layer 3" href="#img12" x="582" y="396" />
-						<use id="Layer 3 copy 7" href="#img13" x="653" y="396" />
-						<use id="Layer 3 copy 8" href="#img14" x="653" y="503" />
-						<use id="Layer 3 copy 9" href="#img15" x="653" y="610" />
-						<use id="Layer 3 copy 5" href="#img16" x="582" y="503" />
-						<use id="Layer 3 copy 6" href="#img17" x="582" y="610" />
+						<use id="Layer 3" href="#img12" x="413" y="209" />
+						<use id="Layer 3 copy 7" href="#img13" x="484" y="209" />
+						<use id="Layer 3 copy 8" href="#img14" x="484" y="316" />
+						<use id="Layer 3 copy 9" href="#img15" x="484" y="423" />
+						<use id="Layer 3 copy 5" href="#img16" x="413" y="316" />
+						<use id="Layer 3 copy 6" href="#img17" x="413" y="423" />
 					</g>
-					<text id="4F" style="transform: matrix(1,0,0,1,773.34,940.413)" >
-						<tspan x="0" y="0" class="txt0">4F</tspan>
-					</text>
-					<use id="layout copy 2" style="opacity: 0.078" href="#img18" x="836" y="188" />
-					<g id="4F Name">
-					</g>
+					<use id="layout copy 2" style="opacity: 0.078" href="#img18" x="667" y="1" />
 				</g>
 			</g>
 		</g>
