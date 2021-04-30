@@ -7,1714 +7,1715 @@
 	<meta name="description" content="">
 	<meta name="author" content="PULIP COMMUNICATIONS">
 	<meta name="robots" content="noindex,nofollow" />
-	<link rel="icon" href="https://www.pulipinc.com/pulipfavicon3.ico">	
+	<link rel="icon" href="https://www.pulipinc.com/pulipfavicon3.ico">
 	<title>플립커뮤니케이션즈 인트라넷 - 좌석배치도</title>
-	
+
 	<!-- Bootstrap core CSS -->
 	<link href="https://member.pulipinc.com/css/2015/bootstrap.css" rel="stylesheet">
 	<link href="https://member.pulipinc.com/css/2015/bootstrap-theme.css?update=20180810" rel="stylesheet">
 	<!-- Custom styles for this template -->
 	<link href="https://member.pulipinc.com/css/2015/custom/style.css?update=20201116" rel="stylesheet">
-	
-	<script src="https://member.pulipinc.com/js/jquery.min.js"></script>	
+
+	<script src="https://member.pulipinc.com/js/jquery.min.js"></script>
 	<script src="https://member.pulipinc.com/js/jquery.validate.js"></script>
 	<script src="https://member.pulipinc.com/js/validator.js"></script>
 	<script type="text/javascript" src="https://member.pulipinc.com/js/ui/jquery.slimscroll.min.js"></script>
 
-    <!-- 좌석배치도 js/css -->
-<!--	<link href="https://member.pulipinc.com/css/2015/custom/seat_map.css" rel="stylesheet">-->
-	<link rel="stylesheet" type="text/css" href="https://member.pulipinc.com/css/seat/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="https://member.pulipinc.com/css/seat/style.css" />
-	<script src="https://member.pulipinc.com/js/seat/modernizr-custom.js"></script>
-	<link rel="stylesheet" type="text/css" href="./css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="./css/style.css" />
-	<script src="./js/modernizr-custom.js"></script>
+	<!-- 좌석배치도 js/css -->
+	<!--	<link href="https://member.pulipinc.com/css/2015/custom/seat_map.css" rel="stylesheet">-->
+<!--	<link rel="stylesheet" type="text/css" href="https://member.pulipinc.com/css/seat/normalize.css" />-->
+<!--	<link rel="stylesheet" type="text/css" href="https://member.pulipinc.com/css/seat/style.css" />-->
+<!--	<script src="https://member.pulipinc.com/js/seat/modernizr-custom.js"></script>-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/modernizr-custom.js"></script>
 
 </head>
 <body  style="background-image:url('https://member.pulipinc.com/images/bg_main.png');" class="default-layout">
 
-	<!-- skip navigation s -->
-	<a class="sr-only" href="#content">본문 바로가기</a>
-	<!-- //skip navigation e -->
-	<!-- container s -->
-	<div class="container-fluid">
-		<!-- lnb s -->
-		<nav id="left" >
-			<div class="leftTop">
-				<figure class="GT">
+<!-- skip navigation s -->
+<a class="sr-only" href="#content">본문 바로가기</a>
+<!-- //skip navigation e -->
+<!-- container s -->
+<div class="container-fluid">
+	<!-- lnb s -->
+	<nav id="left" >
+		<div class="leftTop">
+			<figure class="GT">
 					<span>
 						<span class="pic"><a href="/user/Info"><img src="https://member.pulipinc.com/images/ic_pic.png" alt="개인정보 수정" /></a></span>
 					</span>
-					<figcaption>
-						<p><strong>이성헌 이사</strong></p>
-						<p><span>연구소</span>
-							
-						</p>
-					</figcaption>
-					<p class="logout"><a href="/logout"><img src="https://member.pulipinc.com/images/ic_lnb_logout.png" alt="로그아웃" /></a></p>
-				</figure>
-			</div>
-			<div class="leftMenu">
-				
-					<form name="unifiedSearch"  id="unifiedSearch" role="search" >
-						<div class="input-group">
-							<span class="input-group-btn"><button class="btn btn-default" type="button" onclick="goUnifiedSearch();"><img src="https://member.pulipinc.com/images/ic_sch.gif" alt="검색" /></button></span>
-							<input type=text name="unifiedSearchValue" id="unifiedSearchValue" class="form-control" placeholder="검색어를 입력하세요" onkeypress="if (event.keyCode==13){goUnifiedSearch(); return false;}"  />
-							<input type="hidden" name="unifiedSearchKey" id="unifiedSearchKey" value=""/>
-						</div><!-- /input-group -->
-					</form>
-				
-				<select class="form-control input-sm" name="leftMyProject" onChange="goProject(this);">
-					<option value="">나의 진행 프로젝트</option>
-				</select>
-				<ul id="main-menu">
-					<li class="diary "><a href="/workdiary/">업무일지</a> <a href="#" class="more-info setUserNoWriteCount setUserNoWriteCommingDate">-</a></li>
-					<li class="room "><a href="/room">회의실예약</a> <a href="#" class="more-info setUserTodayRoomCount">-</a></li>
-					<li class="mypage  active "><a href="/user/Info">My Page</a> <a href="#" class="more-info setMyPageCount">-</a></li>
-				</ul>
-				<ul id="menu">
-					<!-- <li>
-						<//jsp:include page="/workdiary/left" flush="true" />	 				
-					</li> -->
-					<li class="home"><a href="/main">HOME</a></li>
-				</ul>
-			</div>
-			<footer>
-				<ul id="link-menu">
-					<li><a href="https://www.pulipinc.com" target="_blank" title="새 창 열림">PULIP <span>Site</span></a></li>
-					<li><a href="https://blog.naver.com/pulip_plog" target="_blank" title="새 창 열림">BLOG</a></li>
-					<li><a href="https://www.facebook.com/pulip.comms" target="_blank" title="새 창 열림">Facebook</a></li>
-					<li><a href="#" onclick="goPulipManual();" title="새 창 열림">Library</a></li>
-				</ul>
-				<p class="copyright"><small>Copyright (c) PULIP COMMUNICATIONS. <span>All Rights Reserved.</span></small></p>
-			</footer>
-		</nav>
-		<!-- //lnb e -->
-		
-		
-		
-		<section id="content">
-			<div id="seat-container">
-				<div class="pulipMap">
-					<svg class="hidden">
-						<defs>
-							<symbol id="icon-pin" viewBox="0 0 200 300">
-								<title>pin</title>
-								<path d="M100,21.78A85,85,0,0,0,15.18,106.6c0,18.85,12.08,49.52,36.76,93.9,17.48,31.36,34.7,57.49,35.47,58.6L100,278.22l12.59-19.11c0.69-1.11,18-27.25,35.47-58.6,24.76-44.38,36.76-75.06,36.76-93.9A85,85,0,0,0,100,21.78Z" />
-							</symbol>
-							<symbol id="icon-search" viewBox="0 0 32 32">
-								<title>search</title>
-								<path class="path1" d="M26.819 24.917c0.262 0.262 0.262 0.688 0 0.951l-0.951 0.951c-0.263 0.262-0.688 0.262-0.951 0l-6.656-6.656c-0.072-0.072-0.12-0.158-0.153-0.248-1.365 0.998-3.041 1.593-4.862 1.593-4.562 0-8.261-3.699-8.261-8.261s3.699-8.261 8.261-8.261c4.562 0 8.261 3.699 8.261 8.261 0 1.821-0.595 3.497-1.593 4.862 0.091 0.032 0.176 0.080 0.248 0.153l6.656 6.656zM13.246 7.739c-3.041 0-5.508 2.466-5.508 5.508s2.466 5.508 5.508 5.508 5.508-2.466 5.508-5.508c0-3.041-2.466-5.508-5.508-5.508z"></path>
-							</symbol>
-							<symbol id="icon-stack" viewBox="0 0 32 32">
-								<title>stack</title>
-								<path class="path1" d="M29.143 11.071l-13.143-6.571-13.143 6.571 13.143 6.571 13.143-6.571zM16 6.681l8.781 4.39-8.781 4.39-8.781-4.39 8.781-4.39zM26.51 14.684l2.633 1.316-13.143 6.571-13.143-6.571 2.633-1.316 10.51 5.255zM26.51 19.612l2.633 1.316-13.143 6.571-13.143-6.571 2.633-1.316 10.51 5.255z"></path>
-							</symbol>
-							<symbol id="icon-cross" viewBox="0 0 24 24">
-								<title>cross</title>
-								<path class="path1" d="M18.016 5.125q0.369 0 0.614 0.245t0.245 0.614q0 0.363-0.248 0.611l-5.411 5.405 5.411 5.405q0.248 0.248 0.248 0.611 0 0.369-0.245 0.614t-0.614 0.245q-0.363 0-0.611-0.248l-5.405-5.411-5.405 5.411q-0.248 0.248-0.611 0.248-0.369 0-0.614-0.245t-0.245-0.614q0-0.363 0.248-0.611l5.411-5.405-5.411-5.405q-0.248-0.248-0.248-0.611 0-0.369 0.245-0.614t0.614-0.245q0.363 0 0.611 0.248l5.405 5.411 5.405-5.411q0.248-0.248 0.611-0.248z"></path>
-							</symbol>
-						</defs>
-					</svg>
-					<div class="container">
-						<!--
-                        data-space : 좌석좌표
-                        data-category : 부서
-                        data-level : 건물층
-                        -->
-						<div class="main">
-							<header class="codrops-header" style="display: none;">
-								<div class="codrops-links">
-									<a class="codrops-icon codrops-icon--prev" href="http://tympanus.net/Tutorials/AnimatedAnimals/" title="Previous Demo"><span>Previous Demo</span></a>
-									<a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/?p=26692" title="Back to the article"><span>Back to the Codrops article</span></a>
-								</div>
-								<h1>Interactive Mall Map</h1>
-							</header>
-							<div class="mall">
-								<div class="levels">
-									<div class="level level--1" aria-label="Level 1">
-										<img src="./map1F_n.svg" alt="" class="map map--1" viewBox="0 0 1980 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-										<div class="level__pins">
-											<a class="pin pin--1-1" data-category="11" data-space="1.01" href="#" aria-label="김한울">
+				<figcaption>
+					<p><strong>이성헌 이사</strong></p>
+					<p><span>연구소</span>
+
+					</p>
+				</figcaption>
+				<p class="logout"><a href="/logout"><img src="https://member.pulipinc.com/images/ic_lnb_logout.png" alt="로그아웃" /></a></p>
+			</figure>
+		</div>
+		<div class="leftMenu">
+
+			<form name="unifiedSearch"  id="unifiedSearch" role="search" >
+				<div class="input-group">
+					<span class="input-group-btn"><button class="btn btn-default" type="button" onclick="goUnifiedSearch();"><img src="https://member.pulipinc.com/images/ic_sch.gif" alt="검색" /></button></span>
+					<input type=text name="unifiedSearchValue" id="unifiedSearchValue" class="form-control" placeholder="검색어를 입력하세요" onkeypress="if (event.keyCode==13){goUnifiedSearch(); return false;}"  />
+					<input type="hidden" name="unifiedSearchKey" id="unifiedSearchKey" value=""/>
+				</div><!-- /input-group -->
+			</form>
+
+			<select class="form-control input-sm" name="leftMyProject" onChange="goProject(this);">
+				<option value="">나의 진행 프로젝트</option>
+			</select>
+			<ul id="main-menu">
+				<li class="diary "><a href="/workdiary/">업무일지</a> <a href="#" class="more-info setUserNoWriteCount setUserNoWriteCommingDate">-</a></li>
+				<li class="room "><a href="/room">회의실예약</a> <a href="#" class="more-info setUserTodayRoomCount">-</a></li>
+				<li class="mypage  active "><a href="/user/Info">My Page</a> <a href="#" class="more-info setMyPageCount">-</a></li>
+			</ul>
+			<ul id="menu">
+				<!-- <li>
+                    <//jsp:include page="/workdiary/left" flush="true" />
+                </li> -->
+				<li class="home"><a href="/main">HOME</a></li>
+			</ul>
+		</div>
+		<footer>
+			<ul id="link-menu">
+				<li><a href="https://www.pulipinc.com" target="_blank" title="새 창 열림">PULIP <span>Site</span></a></li>
+				<li><a href="https://blog.naver.com/pulip_plog" target="_blank" title="새 창 열림">BLOG</a></li>
+				<li><a href="https://www.facebook.com/pulip.comms" target="_blank" title="새 창 열림">Facebook</a></li>
+				<li><a href="#" onclick="goPulipManual();" title="새 창 열림">Library</a></li>
+			</ul>
+			<p class="copyright"><small>Copyright (c) PULIP COMMUNICATIONS. <span>All Rights Reserved.</span></small></p>
+		</footer>
+	</nav>
+	<!-- //lnb e -->
+
+
+
+	<section id="content">
+		<div id="seat-container">
+			<div class="pulipMap">
+				<svg class="hidden">
+					<defs>
+						<symbol id="icon-pin" viewBox="0 0 200 300">
+							<title>pin</title>
+							<path d="M100,21.78A85,85,0,0,0,15.18,106.6c0,18.85,12.08,49.52,36.76,93.9,17.48,31.36,34.7,57.49,35.47,58.6L100,278.22l12.59-19.11c0.69-1.11,18-27.25,35.47-58.6,24.76-44.38,36.76-75.06,36.76-93.9A85,85,0,0,0,100,21.78Z" />
+						</symbol>
+						<symbol id="icon-search" viewBox="0 0 32 32">
+							<title>search</title>
+							<path class="path1" d="M26.819 24.917c0.262 0.262 0.262 0.688 0 0.951l-0.951 0.951c-0.263 0.262-0.688 0.262-0.951 0l-6.656-6.656c-0.072-0.072-0.12-0.158-0.153-0.248-1.365 0.998-3.041 1.593-4.862 1.593-4.562 0-8.261-3.699-8.261-8.261s3.699-8.261 8.261-8.261c4.562 0 8.261 3.699 8.261 8.261 0 1.821-0.595 3.497-1.593 4.862 0.091 0.032 0.176 0.080 0.248 0.153l6.656 6.656zM13.246 7.739c-3.041 0-5.508 2.466-5.508 5.508s2.466 5.508 5.508 5.508 5.508-2.466 5.508-5.508c0-3.041-2.466-5.508-5.508-5.508z"></path>
+						</symbol>
+						<symbol id="icon-stack" viewBox="0 0 32 32">
+							<title>stack</title>
+							<path class="path1" d="M29.143 11.071l-13.143-6.571-13.143 6.571 13.143 6.571 13.143-6.571zM16 6.681l8.781 4.39-8.781 4.39-8.781-4.39 8.781-4.39zM26.51 14.684l2.633 1.316-13.143 6.571-13.143-6.571 2.633-1.316 10.51 5.255zM26.51 19.612l2.633 1.316-13.143 6.571-13.143-6.571 2.633-1.316 10.51 5.255z"></path>
+						</symbol>
+						<symbol id="icon-cross" viewBox="0 0 24 24">
+							<title>cross</title>
+							<path class="path1" d="M18.016 5.125q0.369 0 0.614 0.245t0.245 0.614q0 0.363-0.248 0.611l-5.411 5.405 5.411 5.405q0.248 0.248 0.248 0.611 0 0.369-0.245 0.614t-0.614 0.245q-0.363 0-0.611-0.248l-5.405-5.411-5.405 5.411q-0.248 0.248-0.611 0.248-0.369 0-0.614-0.245t-0.245-0.614q0-0.363 0.248-0.611l5.411-5.405-5.411-5.405q-0.248-0.248-0.248-0.611 0-0.369 0.245-0.614t0.614-0.245q0.363 0 0.611 0.248l5.405 5.411 5.405-5.411q0.248-0.248 0.611-0.248z"></path>
+						</symbol>
+					</defs>
+				</svg>
+				<div class="container">
+					<!--
+                    data-space : 좌석좌표
+                    data-category : 부서
+                    data-level : 건물층
+                    -->
+					<div class="mapWrap">
+						<header class="codrops-header" style="display: none;">
+							<div class="codrops-links">
+								<a class="codrops-icon codrops-icon--prev" href="http://tympanus.net/Tutorials/AnimatedAnimals/" title="Previous Demo"><span>Previous Demo</span></a>
+								<a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/?p=26692" title="Back to the article"><span>Back to the Codrops article</span></a>
+							</div>
+							<h1>Interactive Mall Map</h1>
+						</header>
+						<div class="mall">
+							<div class="levels">
+								<div class="level level--1" aria-label="Level 1">
+									<img src="./map1F_n.svg" alt="" class="map map--1" viewBox="0 0 1980 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+									<div class="level__pins">
+										<a class="pin pin--1-1" data-category="GZ" data-space="1.01" href="#" aria-label="김한울">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김한울</span>
 											<span>1F-01</span>
 										</span>
-											</a>
-											<a class="pin pin--1-2" data-category="11" data-space="1.02" href="#" aria-label="김동민">
+										</a>
+										<a class="pin pin--1-2" data-category="GZ" data-space="1.02" href="#" aria-label="김동민">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김동민</span>
 											<span>1F-02</span>
 										</span>
-											</a>
-											<a class="pin pin--1-3" data-category="11" data-space="1.03" href="#" aria-label="윤지환">
+										</a>
+										<a class="pin pin--1-3" data-category="GZ" data-space="1.03" href="#" aria-label="윤지환">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>윤지환</span>
 											<span>1F-03</span>
 										</span>
-											</a>
-											<a class="pin pin--1-4" data-category="11" data-space="1.04" href="#" aria-label="장준녕">
+										</a>
+										<a class="pin pin--1-4" data-category="GZ" data-space="1.04" href="#" aria-label="장준녕">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>장준녕</span>
 											<span>1F-04</span>
 										</span>
-											</a>
-											<a class="pin pin--1-5" data-category="11" data-space="1.05" href="#" aria-label="윤지원">
+										</a>
+										<a class="pin pin--1-5" data-category="GZ" data-space="1.05" href="#" aria-label="윤지원">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>윤지원</span>
 											<span>1F-05</span>
 										</span>
-											</a>
-											<a class="pin pin--1-6" data-category="11" data-space="1.06" href="#" aria-label="이용준">
+										</a>
+										<a class="pin pin--1-6" data-category="GZ" data-space="1.06" href="#" aria-label="이용준">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이용준</span>
 											<span>1F-06</span>
 										</span>
-											</a>
-											<a class="pin pin--1-7" data-category="11" data-space="1.07" href="#" aria-label="유세리">
+										</a>
+										<a class="pin pin--1-7" data-category="GZ" data-space="1.07" href="#" aria-label="유세리">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>유세리</span>
 											<span>1F-07</span>
 										</span>
-											</a>
-										</div>
-										<!-- /level__pins -->
+										</a>
 									</div>
-									<div class="level level--2" aria-label="Level 2">
-										<img src="./map2F_n.svg" alt="" class="map map--2" viewBox="0 0 1980 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-										<div class="level__pins">
-											<a class="pin pin--2-1" data-category="0" data-space="2.01" href="#" aria-label="">
+									<!-- /level__pins -->
+								</div>
+								<div class="level level--2" aria-label="Level 2">
+									<img src="./map2F_n.svg" alt="" class="map map--2" viewBox="0 0 1980 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+									<div class="level__pins">
+										<a class="pin pin--2-1" data-category="0" data-space="2.01" href="#" aria-label="">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span></span>
 											<span>2F-01</span>
 										</span>
-											</a>
-											<a class="pin pin--2-2" data-category="7" data-space="2.02" href="#" aria-label="이두리">
+										</a>
+										<a class="pin pin--2-2" data-category="G8" data-space="2.02" href="#" aria-label="이두리">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이두리</span>
 											<span>2F-02</span>
 										</span>
-											</a>
-											<a class="pin pin--2-3" data-category="7" data-space="2.03" href="#" aria-label="김나현">
+										</a>
+										<a class="pin pin--2-3" data-category="G8" data-space="2.03" href="#" aria-label="김나현">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김나현</span>
 											<span>2F-03</span>
 										</span>
-											</a>
-											<a class="pin pin--2-4" data-category="7" data-space="2.04" href="#" aria-label="박정문">
+										</a>
+										<a class="pin pin--2-4" data-category="G8" data-space="2.04" href="#" aria-label="박정문">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>박정문</span>
 											<span>2F-04</span>
 										</span>
-											</a>
-											<a class="pin pin--2-5" data-category="7" data-space="2.05" href="#" aria-label="우인경">
+										</a>
+										<a class="pin pin--2-5" data-category="G8" data-space="2.05" href="#" aria-label="우인경">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>우인경</span>
 											<span>2F-05</span>
 										</span>
-											</a>
-											<a class="pin pin--2-6" data-category="7" data-space="2.06" href="#" aria-label="허은지">
+										</a>
+										<a class="pin pin--2-6" data-category="G8" data-space="2.06" href="#" aria-label="허은지">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>허은지</span>
 											<span>2F-06</span>
 										</span>
-											</a>
-											<a class="pin pin--2-7" data-category="7" data-space="2.07" href="#" aria-label="이행은">
+										</a>
+										<a class="pin pin--2-7" data-category="G8" data-space="2.07" href="#" aria-label="이행은">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이행은</span>
 											<span>2F-07</span>
 										</span>
-											</a>
-											<a class="pin pin--2-8" data-category="7" data-space="2.08" href="#" aria-label="임노승, 이민호(外)">
+										</a>
+										<a class="pin pin--2-8" data-category="G8" data-space="2.08" href="#" aria-label="임노승, 이민호(外)">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>임노승<br>이민호<sup>(外)</sup></span>
 											<span>2F-08</span>
 										</span>
-											</a>
-											<a class="pin pin--2-9" data-category="7" data-space="2.09" href="#" aria-label="박보람">
+										</a>
+										<a class="pin pin--2-9" data-category="G8" data-space="2.09" href="#" aria-label="박보람">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>박보람</span>
 											<span>2F-09</span>
 										</span>
-											</a>
-											<a class="pin pin--2-10" data-category="7" data-space="2.10" href="#" aria-label="안정화">
+										</a>
+										<a class="pin pin--2-10" data-category="G8" data-space="2.10" href="#" aria-label="안정화">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>안정화</span>
 											<span>2F-10</span>
 										</span>
-											</a>
-											<a class="pin pin--2-11" data-category="7" data-space="2.11" href="#" aria-label="김민철">
+										</a>
+										<a class="pin pin--2-11" data-category="G8" data-space="2.11" href="#" aria-label="김민철">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김민철</span>
 											<span>2F-11</span>
 										</span>
-											</a>
-											<a class="pin pin--2-12" data-category="7" data-space="2.12" href="#" aria-label="정민영, 김지희(外)">
+										</a>
+										<a class="pin pin--2-12" data-category="G8" data-space="2.12" href="#" aria-label="정민영, 김지희(外)">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>정민영<br>김지희<sup>(外)</sup></span>
 											<span>2F-12</span>
 										</span>
-											</a>
-											<a class="pin pin--2-13" data-category="7" data-space="2.13" href="#" aria-label="이혜령, 정유진(外)">
+										</a>
+										<a class="pin pin--2-13" data-category="G8" data-space="2.13" href="#" aria-label="이혜령, 정유진(外)">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이혜령<br>정유진<sup>(外)</sup></span>
 											<span>2F-13</span>
 										</span>
-											</a>
-											<a class="pin pin--2-14" data-category="7" data-space="2.14" href="#" aria-label="정은지, 박혜경(外)">
+										</a>
+										<a class="pin pin--2-14" data-category="G8" data-space="2.14" href="#" aria-label="정은지, 박혜경(外)">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>정은지<br>박혜경<sup>(外)</sup></span>
 											<span>2F-14</span>
 										</span>
-											</a>
-											<a class="pin pin--2-15" data-category="5" data-space="2.15" href="#" aria-label="최한솔, 범지훈(外)">
+										</a>
+										<a class="pin pin--2-15" data-category="G7" data-space="2.15" href="#" aria-label="최한솔, 범지훈(外)">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>최한솔<br>범지훈<sup>(外)</sup></span>
 											<span>2F-15</span>
 										</span>
-											</a>
-											<a class="pin pin--2-16" data-category="6" data-space="2.16" href="#" aria-label="황동환">
+										</a>
+										<a class="pin pin--2-16" data-category="G7" data-space="2.16" href="#" aria-label="황동환">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>황동환</span>
 											<span>2F-16</span>
 										</span>
-											</a>
-											<a class="pin pin--2-17" data-category="6" data-space="2.17" href="#" aria-label="김지연">
+										</a>
+										<a class="pin pin--2-17" data-category="G7" data-space="2.17" href="#" aria-label="김지연">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김지연</span>
 											<span>2F-17</span>
 										</span>
-											</a>
-											<a class="pin pin--2-18" data-category="5" data-space="2.18" href="#" aria-label="박천수">
+										</a>
+										<a class="pin pin--2-18" data-category="G7" data-space="2.18" href="#" aria-label="박천수">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>박천수</span>
 											<span>2F-18</span>
 										</span>
-											</a>
-											<a class="pin pin--2-19" data-category="6" data-space="2.19" href="#" aria-label="손원경">
+										</a>
+										<a class="pin pin--2-19" data-category="G7" data-space="2.19" href="#" aria-label="손원경">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>손원경</span>
 											<span>2F-19</span>
 										</span>
-											</a>
-											<a class="pin pin--2-20" data-category="6" data-space="2.20" href="#" aria-label="김수정">
+										</a>
+										<a class="pin pin--2-20" data-category="G7" data-space="2.20" href="#" aria-label="김수정">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김수정</span>
 											<span>2F-20</span>
 										</span>
-											</a>
-											<a class="pin pin--2-21" data-category="6" data-space="2.21" href="#" aria-label="주정수">
+										</a>
+										<a class="pin pin--2-21" data-category="G7" data-space="2.21" href="#" aria-label="주정수">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>주정수</span>
 											<span>2F-21</span>
 										</span>
-											</a>
-											<a class="pin pin--2-22" data-category="5" data-space="2.22" href="#" aria-label="이세영">
+										</a>
+										<a class="pin pin--2-22" data-category="G7" data-space="2.22" href="#" aria-label="이세영">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이세영</span>
 											<span>2F-22</span>
 										</span>
-											</a>
-											<a class="pin pin--2-23" data-category="5" data-space="2.23" href="#" aria-label="김성훈">
+										</a>
+										<a class="pin pin--2-23" data-category="G7" data-space="2.23" href="#" aria-label="김성훈">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김성훈</span>
 											<span>2F-23</span>
 										</span>
-											</a>
-											<a class="pin pin--2-24" data-category="5" data-space="2.24" href="#" aria-label="이성현">
+										</a>
+										<a class="pin pin--2-24" data-category="G7" data-space="2.24" href="#" aria-label="이성현">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이성현</span>
 											<span>2F-24</span>
 										</span>
-											</a>
-											<a class="pin pin--2-25" data-category="5" data-space="2.25" href="#" aria-label="송제우">
+										</a>
+										<a class="pin pin--2-25" data-category="G7" data-space="2.25" href="#" aria-label="송제우">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>송제우</span>
 											<span>2F-25</span>
 										</span>
-											</a>
-											<a class="pin pin--2-26" data-category="5" data-space="2.26" href="#" aria-label="이환석">
+										</a>
+										<a class="pin pin--2-26" data-category="G7" data-space="2.26" href="#" aria-label="이환석">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이환석</span>
 											<span>2F-26</span>
 										</span>
-											</a>
-											<a class="pin pin--2-27" data-category="5" data-space="2.27" href="#" aria-label="최소은">
+										</a>
+										<a class="pin pin--2-27" data-category="G7" data-space="2.27" href="#" aria-label="최소은">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>최소은</span>
 											<span>2F-27</span>
 										</span>
-											</a>
-											<a class="pin pin--2-28" data-category="5" data-space="2.28" href="#" aria-label="오정민">
+										</a>
+										<a class="pin pin--2-28" data-category="G7" data-space="2.28" href="#" aria-label="오정민">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>오정민</span>
 											<span>2F-28</span>
 										</span>
-											</a>
-										</div>
-										<!-- /level__pins -->
+										</a>
 									</div>
-									<div class="level level--3" aria-label="Level 3">
-										<img src="./map3F_n.svg" alt="" class="map map--3" viewBox="0 0 1980 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-										<div class="level__pins">
-											<a class="pin pin--3-1" data-category="4" data-space="3.01" href="#" aria-label="남승헌">
+									<!-- /level__pins -->
+								</div>
+								<div class="level level--3" aria-label="Level 3">
+									<img src="./map3F_n.svg" alt="" class="map map--3" viewBox="0 0 1980 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+									<div class="level__pins">
+										<a class="pin pin--3-1" data-category="G5" data-space="3.01" href="#" aria-label="남승헌">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>남승헌</span>
 											<span>3F-01</span>
 										</span>
-											</a>
-											<a class="pin pin--3-2" data-category="4" data-space="3.02" href="#" aria-label="이병준">
+										</a>
+										<a class="pin pin--3-2" data-category="G5" data-space="3.02" href="#" aria-label="이병준">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이병준</span>
 											<span>3F-02</span>
 										</span>
-											</a>
-											<a class="pin pin--3-3" data-category="4" data-space="3.03" href="#" aria-label="이종원">
+										</a>
+										<a class="pin pin--3-3" data-category="G5" data-space="3.03" href="#" aria-label="이종원">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이종원</span>
 											<span>3F-03</span>
 										</span>
-											</a>
-											<a class="pin pin--3-4" data-category="4" data-space="3.04" href="#" aria-label="박재길">
+										</a>
+										<a class="pin pin--3-4" data-category="G5" data-space="3.04" href="#" aria-label="박재길">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>박재길</span>
 											<span>3F-04</span>
 										</span>
-											</a>
-											<a class="pin pin--3-5" data-category="4" data-space="3.05" href="#" aria-label="이희정">
+										</a>
+										<a class="pin pin--3-5" data-category="G5" data-space="3.05" href="#" aria-label="이희정">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이희정</span>
 											<span>3F-05</span>
 										</span>
-											</a>
-											<a class="pin pin--3-6" data-category="4" data-space="3.06" href="#" aria-label="연두희">
+										</a>
+										<a class="pin pin--3-6" data-category="G5" data-space="3.06" href="#" aria-label="연두희">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>연두희</span>
 											<span>3F-06</span>
 										</span>
-											</a>
-											<a class="pin pin--3-7" data-category="4" data-space="3.07" href="#" aria-label="신우용">
+										</a>
+										<a class="pin pin--3-7" data-category="G5" data-space="3.07" href="#" aria-label="신우용">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>신우용</span>
 											<span>3F-07</span>
 										</span>
-											</a>
-											<a class="pin pin--3-8" data-category="2" data-space="3.08" href="#" aria-label="김채이">
+										</a>
+										<a class="pin pin--3-8" data-category="G3" data-space="3.08" href="#" aria-label="김채이">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김채이</span>
 											<span>3F-08</span>
 										</span>
-											</a>
-											<a class="pin pin--3-9" data-category="2" data-space="3.09" href="#" aria-label="이민희">
+										</a>
+										<a class="pin pin--3-9" data-category="G3" data-space="3.09" href="#" aria-label="이민희">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이민희</span>
 											<span>3F-09</span>
 										</span>
-											</a>
-											<a class="pin pin--3-10" data-category="2" data-space="3.10" href="#" aria-label="장웅순">
+										</a>
+										<a class="pin pin--3-10" data-category="G3" data-space="3.10" href="#" aria-label="장웅순">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>장웅순</span>
 											<span>3F-10</span>
 										</span>
-											</a>
-											<a class="pin pin--3-11" data-category="2" data-space="3.11" href="#" aria-label="정태영">
+										</a>
+										<a class="pin pin--3-11" data-category="G3" data-space="3.11" href="#" aria-label="정태영">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>정태영</span>
 											<span>3F-11</span>
 										</span>
-											</a>
-											<a class="pin pin--3-12" data-category="3" data-space="3.12" href="#" aria-label="김소연, 전영준">
+										</a>
+										<a class="pin pin--3-12" data-category="G4" data-space="3.12" href="#" aria-label="김소연, 전영준">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김소연<br>전영준</span>
 											<span>3F-12</span>
 										</span>
-											</a>
-											<a class="pin pin--3-13" data-category="2" data-space="3.13" href="#" aria-label="조성길">
+										</a>
+										<a class="pin pin--3-13" data-category="G3" data-space="3.13" href="#" aria-label="조성길">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>조성길</span>
 											<span>3F-13</span>
 										</span>
-											</a>
-											<a class="pin pin--3-14" data-category="2" data-space="3.14" href="#" aria-label="심승미">
+										</a>
+										<a class="pin pin--3-14" data-category="G3" data-space="3.14" href="#" aria-label="심승미">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>심승미</span>
 											<span>3F-14</span>
 										</span>
-											</a>
-											<a class="pin pin--3-15" data-category="3" data-space="3.15" href="#" aria-label="유나희">
+										</a>
+										<a class="pin pin--3-15" data-category="G4" data-space="3.15" href="#" aria-label="유나희">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>유나희</span>
 											<span>3F-15</span>
 										</span>
-											</a>
-											<a class="pin pin--3-16" data-category="3" data-space="3.16" href="#" aria-label="김진선">
+										</a>
+										<a class="pin pin--3-16" data-category="G4" data-space="3.16" href="#" aria-label="김진선">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김진선</span>
 											<span>3F-16</span>
 										</span>
-											</a>
-											<a class="pin pin--3-17" data-category="3" data-space="3.17" href="#" aria-label="황선진, 박은경">
+										</a>
+										<a class="pin pin--3-17" data-category="G4" data-space="3.17" href="#" aria-label="황선진, 박은경">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>황선진<br>박은경</span>
 											<span>3F-17</span>
 										</span>
-											</a>
-											<a class="pin pin--3-18" data-category="4" data-space="3.18" href="#" aria-label="이훈구">
+										</a>
+										<a class="pin pin--3-18" data-category="G5" data-space="3.18" href="#" aria-label="이훈구">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이훈구</span>
 											<span>3F-18</span>
 										</span>
-											</a>
-											<a class="pin pin--3-19" data-category="3" data-space="3.19" href="#" aria-label="정현미, 이강욱">
+										</a>
+										<a class="pin pin--3-19" data-category="G4" data-space="3.19" href="#" aria-label="정현미, 이강욱">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>정현미<br>이강욱</span>
 											<span>3F-19</span>
 										</span>
-											</a>
-											<a class="pin pin--3-20" data-category="3" data-space="3.20" href="#" aria-label="전미경">
+										</a>
+										<a class="pin pin--3-20" data-category="G4" data-space="3.20" href="#" aria-label="전미경">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>전미경</span>
 											<span>3F-20</span>
 										</span>
-											</a>
-											<a class="pin pin--3-21" data-category="3" data-space="3.21" href="#" aria-label="전세영">
+										</a>
+										<a class="pin pin--3-21" data-category="G4" data-space="3.21" href="#" aria-label="전세영">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>전세영</span>
 											<span>3F-21</span>
 										</span>
-											</a>
-											<a class="pin pin--3-22" data-category="0" data-space="3.22" href="#" aria-label="">
+										</a>
+										<a class="pin pin--3-22" data-category="0" data-space="3.22" href="#" aria-label="">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span></span>
 											<span>3F-22</span>
 										</span>
-											</a>
-											<a class="pin pin--3-23" data-category="1" data-space="3.23" href="#" aria-label="신재웅">
+										</a>
+										<a class="pin pin--3-23" data-category="G1" data-space="3.23" href="#" aria-label="신재웅">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>신재웅</span>
 											<span>3F-23</span>
 										</span>
-											</a>
-											<a class="pin pin--3-24" data-category="1" data-space="3.24" href="#" aria-label="홍지표">
+										</a>
+										<a class="pin pin--3-24" data-category="G1" data-space="3.24" href="#" aria-label="홍지표">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>홍지표</span>
 											<span>3F-24</span>
 										</span>
-											</a>
-											<a class="pin pin--3-25" data-category="1" data-space="3.25" href="#" aria-label="박득환">
+										</a>
+										<a class="pin pin--3-25" data-category="G1" data-space="3.25" href="#" aria-label="박득환">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>박득환</span>
 											<span>3F-25</span>
 										</span>
-											</a>
-											<a class="pin pin--3-26" data-category="8" data-space="3.26" href="#" aria-label="문인희">
+										</a>
+										<a class="pin pin--3-26" data-category="G9" data-space="3.26" href="#" aria-label="문인희">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>문인희</span>
 											<span>3F-26</span>
 										</span>
-											</a>
-											<a class="pin pin--3-27" data-category="8" data-space="3.27" href="#" aria-label="김혜련">
+										</a>
+										<a class="pin pin--3-27" data-category="G9" data-space="3.27" href="#" aria-label="김혜련">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김혜련</span>
 											<span>3F-27</span>
 										</span>
-											</a>
-											<a class="pin pin--3-28" data-category="0" data-space="3.28" href="#" aria-label="">
+										</a>
+										<a class="pin pin--3-28" data-category="0" data-space="3.28" href="#" aria-label="">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span></span>
 											<span>3F-28</span>
 										</span>
-											</a>
-											<a class="pin pin--3-29" data-category="4" data-space="3.29" href="#" aria-label="이재철(外)">
+										</a>
+										<a class="pin pin--3-29" data-category="G5" data-space="3.29" href="#" aria-label="이재철(外)">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이재철<sup>(外)</sup></span>
 											<span>3F-29</span>
 										</span>
-											</a>
-											<a class="pin pin--3-30" data-category="8" data-space="3.30" href="#" aria-label="임상영">
+										</a>
+										<a class="pin pin--3-30" data-category="G9" data-space="3.30" href="#" aria-label="임상영">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>임상영</span>
 											<span>3F-30</span>
 										</span>
-											</a>
-											<a class="pin pin--3-31" data-category="8" data-space="3.31" href="#" aria-label="정재성">
+										</a>
+										<a class="pin pin--3-31" data-category="G9" data-space="3.31" href="#" aria-label="정재성">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>정재성</span>
 											<span>3F-31</span>
 										</span>
-											</a>
-											<a class="pin pin--3-32" data-category="8" data-space="3.32" href="#" aria-label="이영수">
+										</a>
+										<a class="pin pin--3-32" data-category="G9" data-space="3.32" href="#" aria-label="이영수">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이영수</span>
 											<span>3F-32</span>
 										</span>
-											</a>
-											<a class="pin pin--3-33" data-category="10" data-space="3.33" href="#" aria-label="김종수">
+										</a>
+										<a class="pin pin--3-33" data-category="GT" data-space="3.33" href="#" aria-label="김종수">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김종수</span>
 											<span>3F-33</span>
 										</span>
-											</a>
-											<a class="pin pin--3-34" data-category="10" data-space="3.34" href="#" aria-label="김진원">
+										</a>
+										<a class="pin pin--3-34" data-category="GT" data-space="3.34" href="#" aria-label="김진원">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김진원</span>
 											<span>3F-34</span>
 										</span>
-											</a>
-											<a class="pin pin--3-35" data-category="9" data-space="3.35" href="#" aria-label="정은정">
+										</a>
+										<a class="pin pin--3-35" data-category="GT" data-space="3.35" href="#" aria-label="정은정">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>정은정</span>
 											<span>3F-35</span>
 										</span>
-											</a>
-										</div>
-										<!-- /level__pins -->
+										</a>
 									</div>
-									<div class="level level--4" aria-label="Level 4">
-										<img src="./map4F_n.svg" alt="" class="map map--4" viewBox="0 0 1980 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-										<div class="level__pins">
-											<a class="pin pin--4-1" data-category="9" data-space="4.01" href="#" aria-label="이효훈">
+									<!-- /level__pins -->
+								</div>
+								<div class="level level--4" aria-label="Level 4">
+									<img src="./map4F_n.svg" alt="" class="map map--4" viewBox="0 0 1980 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+									<div class="level__pins">
+										<a class="pin pin--4-1" data-category="GT" data-space="4.01" href="#" aria-label="이효훈">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이효훈</span>
 											<span>4F-01</span>
 										</span>
-											</a>
-											<a class="pin pin--4-2" data-category="9" data-space="4.02" href="#" aria-label="김종환">
+										</a>
+										<a class="pin pin--4-2" data-category="GT" data-space="4.02" href="#" aria-label="김종환">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>김종환</span>
 											<span>4F-02</span>
 										</span>
-											</a>
-											<a class="pin pin--4-3" data-category="10" data-space="4.03" href="#" aria-label="이충한">
+										</a>
+										<a class="pin pin--4-3" data-category="GT" data-space="4.03" href="#" aria-label="이충한">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이충한</span>
 											<span>4F-03</span>
 										</span>
-											</a>
-											<a class="pin pin--4-4" data-category="9" data-space="4.04" href="#" aria-label="이성헌">
+										</a>
+										<a class="pin pin--4-4" data-category="GT" data-space="4.04" href="#" aria-label="이성헌">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이성헌</span>
 											<span>4F-04</span>
 										</span>
-											</a>
-											<a class="pin pin--4-5" data-category="10" data-space="4.05" href="#" aria-label="안노기">
+										</a>
+										<a class="pin pin--4-5" data-category="GT" data-space="4.05" href="#" aria-label="안노기">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>안노기</span>
 											<span>4F-05</span>
 										</span>
-											</a>
-											<a class="pin pin--4-6" data-category="10" data-space="4.06" href="#" aria-label="이종민">
+										</a>
+										<a class="pin pin--4-6" data-category="GT" data-space="4.06" href="#" aria-label="이종민">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이종민</span>
 											<span>4F-06</span>
 										</span>
-											</a>
-											<a class="pin pin--4-7" data-category="10" data-space="4.07" href="#" aria-label="유용관">
+										</a>
+										<a class="pin pin--4-7" data-category="GT" data-space="4.07" href="#" aria-label="유용관">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>유용관</span>
 											<span>4F-07</span>
 										</span>
-											</a>
-											<a class="pin pin--4-8" data-category="0" data-space="4.08" href="#" aria-label="">
+										</a>
+										<a class="pin pin--4-8" data-category="0" data-space="4.08" href="#" aria-label="">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span></span>
 											<span>4F-08</span>
 										</span>
-											</a>
-											<a class="pin pin--4-9" data-category="9" data-space="4.09" href="#" aria-label="정덕영">
+										</a>
+										<a class="pin pin--4-9" data-category="GT" data-space="4.09" href="#" aria-label="정덕영">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>정덕영</span>
 											<span>4F-09</span>
 										</span>
-											</a>
-											<a class="pin pin--4-10" data-category="9" data-space="4.10" href="#" aria-label="강민성">
+										</a>
+										<a class="pin pin--4-10" data-category="GT" data-space="4.10" href="#" aria-label="강민성">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>강민성</span>
 											<span>4F-10</span>
 										</span>
-											</a>
-											<a class="pin pin--4-11" data-category="9" data-space="4.11" href="#" aria-label="전상돈">
+										</a>
+										<a class="pin pin--4-11" data-category="GT" data-space="4.11" href="#" aria-label="전상돈">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>전상돈</span>
 											<span>4F-11</span>
 										</span>
-											</a>
-											<a class="pin pin--4-12" data-category="9" data-space="4.12" href="#" aria-label="이상화">
+										</a>
+										<a class="pin pin--4-12" data-category="GT" data-space="4.12" href="#" aria-label="이상화">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>이상화</span>
 											<span>4F-12</span>
 										</span>
-											</a>
-											<a class="pin pin--4-13" data-category="10" data-space="4.13" href="#" aria-label="조한필">
+										</a>
+										<a class="pin pin--4-13" data-category="GT" data-space="4.13" href="#" aria-label="조한필">
 										<span class="pin__icon">
 											<use xlink:href="#icon-pin"></use>
 											<span>조한필</span>
 											<span>4F-13</span>
 										</span>
-											</a>
-										</div>
-										<!-- /level__pins -->
+										</a>
 									</div>
+									<!-- /level__pins -->
 								</div>
-								<!-- /levels -->
 							</div>
-							<!-- /mall -->
-							<button class="boxbutton boxbutton--dark open-search" aria-label="Show search"><svg class="icon icon--search"><use xlink:href="#icon-search"></use></svg></button>
-							<nav class="mallnav mallnav--hidden">
-								<button class="boxbutton mallnav__button--up" aria-label="Go up" style="display: none"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-up"></use></svg></button>
-								<button class="boxbutton boxbutton--dark mallnav__button--all-levels" aria-label="Back to all levels"><svg class="icon icon--stack"><use xlink:href="#icon-stack"></use></svg></button>
-								<button class="boxbutton boxbutton--dark mallnav__button—floor" aria-label="Back to all levels">4층</button>
-								<button class="boxbutton boxbutton--dark mallnav__button—floor" aria-label="Back to all levels">3층</button>
-								<button class="boxbutton boxbutton--dark mallnav__button—floor" aria-label="Back to all levels">2층</button>
-								<button class="boxbutton boxbutton--dark mallnav__button—floor" aria-label="Back to all levels">1층</button>
-								<button class="boxbutton mallnav__button--down" aria-label="Go down" style="display: none"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-down"></use></svg></button>
-							</nav>
-							<div class="content">
-								<div class="content__item" data-space="1.01" data-category="11">
-									<h3 class="content__item-title">김한울</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="1.02" data-category="11">
-									<h3 class="content__item-title">김동민</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="1.03" data-category="11">
-									<h3 class="content__item-title">윤지환</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="1.04" data-category="11">
-									<h3 class="content__item-title">장준녕</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="1.05" data-category="11">
-									<h3 class="content__item-title">윤지원</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="1.06" data-category="11">
-									<h3 class="content__item-title">이용준</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="1.07" data-category="11">
-									<h3 class="content__item-title">유세리</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.01" data-category="0">
-									<h3 class="content__item-title"></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.02" data-category="7">
-									<h3 class="content__item-title">이두리</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.03" data-category="7">
-									<h3 class="content__item-title">김나현</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.04" data-category="7">
-									<h3 class="content__item-title">박정문</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.05" data-category="7">
-									<h3 class="content__item-title">우인경</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.06" data-category="7">
-									<h3 class="content__item-title">허은지</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.07" data-category="7">
-									<h3 class="content__item-title">이행은</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.08" data-category="7">
-									<h3 class="content__item-title">임노승<br>이민호<sup>(外)</sup></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.09" data-category="7">
-									<h3 class="content__item-title">박보람</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.10" data-category="7">
-									<h3 class="content__item-title">안정화</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.11" data-category="7">
-									<h3 class="content__item-title">김민철</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.12" data-category="7">
-									<h3 class="content__item-title">정민영<br>김지희<sup>(外)</sup></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.13" data-category="7">
-									<h3 class="content__item-title">이혜령<br>정유진<sup>(外)</sup></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.14" data-category="7">
-									<h3 class="content__item-title">정은지<br>박혜경<sup>(外)</sup></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.15" data-category="5">
-									<h3 class="content__item-title">최한솔<br>범지훈<sup>(外)</sup></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.16" data-category="6">
-									<h3 class="content__item-title">황동환</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.17" data-category="6">
-									<h3 class="content__item-title">김지연</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.18" data-category="5">
-									<h3 class="content__item-title">박천수</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.19" data-category="6">
-									<h3 class="content__item-title">손원경</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.20" data-category="6">
-									<h3 class="content__item-title">김수정</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.21" data-category="6">
-									<h3 class="content__item-title">주정수</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.22" data-category="5">
-									<h3 class="content__item-title">이세영</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.23" data-category="5">
-									<h3 class="content__item-title">김성훈</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.24" data-category="5">
-									<h3 class="content__item-title">이성현</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.25" data-category="5">
-									<h3 class="content__item-title">송제우</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.26" data-category="3">
-									<h3 class="content__item-title">이환석</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.27" data-category="5">
-									<h3 class="content__item-title">최소은</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="2.28" data-category="5">
-									<h3 class="content__item-title">오정민</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.01" data-category="4">
-									<h3 class="content__item-title">남승헌</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.02" data-category="4">
-									<h3 class="content__item-title">이병준</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.03" data-category="4">
-									<h3 class="content__item-title">이종원</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.04" data-category="4">
-									<h3 class="content__item-title">박재길</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.05" data-category="4">
-									<h3 class="content__item-title">이희정</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.06" data-category="4">
-									<h3 class="content__item-title">연두희</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.07" data-category="4">
-									<h3 class="content__item-title">신우용</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.08" data-category="2">
-									<h3 class="content__item-title">김채이</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.09" data-category="2">
-									<h3 class="content__item-title">이민희</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.10" data-category="2">
-									<h3 class="content__item-title">장웅순</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.11" data-category="2">
-									<h3 class="content__item-title">정태영</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.12" data-category="3">
-									<h3 class="content__item-title">김소연, 전영준</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.13" data-category="2">
-									<h3 class="content__item-title">조성길</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.14" data-category="2">
-									<h3 class="content__item-title">심승미</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.15" data-category="3">
-									<h3 class="content__item-title">유나희</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.16" data-category="3">
-									<h3 class="content__item-title">김진선</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.17" data-category="3">
-									<h3 class="content__item-title">황선진, 박은경</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.18" data-category="1">
-									<h3 class="content__item-title">이훈구 이사/사업부장</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.19" data-category="3">
-									<h3 class="content__item-title">정현미, 이강욱</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.20" data-category="3">
-									<h3 class="content__item-title">전미경</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.21" data-category="3">
-									<h3 class="content__item-title">전세영</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.22" data-category="0">
-									<h3 class="content__item-title"></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.23" data-category="1">
-									<h3 class="content__item-title">신재웅 수석</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.24" data-category="1">
-									<h3 class="content__item-title">홍지표 부장/팀장</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.25" data-category="1">
-									<h3 class="content__item-title">박득환 상무/사업부장</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.26" data-category="8">
-									<h3 class="content__item-title">문인희</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.27" data-category="8">
-									<h3 class="content__item-title">김혜련</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.28" data-category="0">
-									<h3 class="content__item-title"></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.29" data-category="4">
-									<h3 class="content__item-title">이재철<sup>(外)</sup></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.30" data-category="8">
-									<h3 class="content__item-title">임상영</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.31" data-category="8">
-									<h3 class="content__item-title">정재성</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.32" data-category="8">
-									<h3 class="content__item-title">이영수</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.33" data-category="10">
-									<h3 class="content__item-title">김종수</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.34" data-category="10">
-									<h3 class="content__item-title">김진원</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="3.35" data-category="9">
-									<h3 class="content__item-title">정은정</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-
-								<!-- 4th Floor(s) -->
-								<div class="content__item" data-space="4.01" data-category="9">
-									<h3 class="content__item-title">이효훈</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.02" data-category="9">
-									<h3 class="content__item-title">김종환</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.03" data-category="10">
-									<h3 class="content__item-title">이충한</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.04" data-category="9">
-									<h3 class="content__item-title">이성헌</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.05" data-category="10">
-									<h3 class="content__item-title">안노기</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.06" data-category="10">
-									<h3 class="content__item-title">이종민</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.07" data-category="10">
-									<h3 class="content__item-title">유용관</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.08" data-category="0">
-									<h3 class="content__item-title"></h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.09" data-category="9">
-									<h3 class="content__item-title">정덕영</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.10" data-category="9">
-									<h3 class="content__item-title">강민성</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.11" data-category="9">
-									<h3 class="content__item-title">전상돈</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.12" data-category="9">
-									<h3 class="content__item-title">이상화</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<div class="content__item" data-space="4.13" data-category="10">
-									<h3 class="content__item-title">조한필</h3>
-									<div class="content__item-details">
-										<p class="content__meta">
-											<span class="content__meta-item"><strong>부서:</strong>연구소</span>
-											<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
-											<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
-										</p>
-									</div>
-								</div>
-								<!-- 4th Floor(e) -->
-
-								<!-- close button -->
-								<button class="boxbutton boxbutton--dark content__button content__button--hidden" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
-							</div>
-							<!-- content -->
+							<!-- /levels -->
 						</div>
-						<!-- /main -->
-						<aside class="spaces-list" id="spaces-list">
-							<div class="search">
-								<input class="search__input" placeholder="Search..." />
-								<button class="boxbutton boxbutton--darker close-search" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
+						<!-- /mall -->
+						<button class="boxbutton boxbutton--dark open-search" aria-label="Show search"><svg class="icon icon--search"><use xlink:href="#icon-search"></use></svg></button>
+						<nav class="mallnav mallnav--hidden">
+							<button class="boxbutton mallnav__button--up" aria-label="Go up" style="display: none"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-up"></use></svg></button>
+							<button class="boxbutton boxbutton--dark mallnav__button--all-levels" aria-label="Back to all levels"><svg class="icon icon--stack"><use xlink:href="#icon-stack"></use></svg></button>
+							<button class="boxbutton boxbutton--dark mallnav__button—floor" aria-label="Back to all levels">4층</button>
+							<button class="boxbutton boxbutton--dark mallnav__button—floor" aria-label="Back to all levels">3층</button>
+							<button class="boxbutton boxbutton--dark mallnav__button—floor" aria-label="Back to all levels">2층</button>
+							<button class="boxbutton boxbutton--dark mallnav__button—floor" aria-label="Back to all levels">1층</button>
+							<button class="boxbutton mallnav__button--down" aria-label="Go down" style="display: none"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-down"></use></svg></button>
+						</nav>
+						<div class="content">
+							<div class="content__item" data-space="1.01" data-category="GZ">
+								<h3 class="content__item-title">김한울</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
 							</div>
-							<span class="label">
+							<div class="content__item" data-space="1.02" data-category="GZ">
+								<h3 class="content__item-title">김동민</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="1.03" data-category="GZ">
+								<h3 class="content__item-title">윤지환</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="1.04" data-category="GZ">
+								<h3 class="content__item-title">장준녕</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="1.05" data-category="GZ">
+								<h3 class="content__item-title">윤지원</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="1.06" data-category="GZ">
+								<h3 class="content__item-title">이용준</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="1.07" data-category="GZ">
+								<h3 class="content__item-title">유세리</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.01" data-category="0">
+								<h3 class="content__item-title"></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.02" data-category="G8">
+								<h3 class="content__item-title">이두리</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.03" data-category="G8">
+								<h3 class="content__item-title">김나현</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.04" data-category="G8">
+								<h3 class="content__item-title">박정문</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.05" data-category="G8">
+								<h3 class="content__item-title">우인경</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.06" data-category="G8">
+								<h3 class="content__item-title">허은지</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.07" data-category="G8">
+								<h3 class="content__item-title">이행은</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.08" data-category="G8">
+								<h3 class="content__item-title">임노승<br>이민호<sup>(外)</sup></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.09" data-category="G8">
+								<h3 class="content__item-title">박보람</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.10" data-category="G8">
+								<h3 class="content__item-title">안정화</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.11" data-category="G8">
+								<h3 class="content__item-title">김민철</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.12" data-category="G8">
+								<h3 class="content__item-title">정민영<br>김지희<sup>(外)</sup></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.13" data-category="G8">
+								<h3 class="content__item-title">이혜령<br>정유진<sup>(外)</sup></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.14" data-category="G8">
+								<h3 class="content__item-title">정은지<br>박혜경<sup>(外)</sup></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.15" data-category="G7">
+								<h3 class="content__item-title">최한솔<br>범지훈<sup>(外)</sup></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.16" data-category="G7">
+								<h3 class="content__item-title">황동환</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.17" data-category="G7">
+								<h3 class="content__item-title">김지연</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.18" data-category="G7">
+								<h3 class="content__item-title">박천수</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.19" data-category="G7">
+								<h3 class="content__item-title">손원경</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.20" data-category="G7">
+								<h3 class="content__item-title">김수정</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.21" data-category="G7">
+								<h3 class="content__item-title">주정수</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.22" data-category="G7">
+								<h3 class="content__item-title">이세영</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.23" data-category="G7">
+								<h3 class="content__item-title">김성훈</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.24" data-category="G7">
+								<h3 class="content__item-title">이성현</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.25" data-category="G7">
+								<h3 class="content__item-title">송제우</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.26" data-category="G4">
+								<h3 class="content__item-title">이환석</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.27" data-category="G7">
+								<h3 class="content__item-title">최소은</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="2.28" data-category="G7">
+								<h3 class="content__item-title">오정민</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.01" data-category="G5">
+								<h3 class="content__item-title">남승헌</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.02" data-category="G5">
+								<h3 class="content__item-title">이병준</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.03" data-category="G5">
+								<h3 class="content__item-title">이종원</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.04" data-category="G5">
+								<h3 class="content__item-title">박재길</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.05" data-category="G5">
+								<h3 class="content__item-title">이희정</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.06" data-category="G5">
+								<h3 class="content__item-title">연두희</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.07" data-category="G5">
+								<h3 class="content__item-title">신우용</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.08" data-category="G3">
+								<h3 class="content__item-title">김채이</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.09" data-category="G3">
+								<h3 class="content__item-title">이민희</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.10" data-category="G3">
+								<h3 class="content__item-title">장웅순</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.11" data-category="G3">
+								<h3 class="content__item-title">정태영</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.12" data-category="G4">
+								<h3 class="content__item-title">김소연, 전영준</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.13" data-category="G3">
+								<h3 class="content__item-title">조성길</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.14" data-category="G3">
+								<h3 class="content__item-title">심승미</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.15" data-category="G4">
+								<h3 class="content__item-title">유나희</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.16" data-category="G4">
+								<h3 class="content__item-title">김진선</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.17" data-category="G4">
+								<h3 class="content__item-title">황선진, 박은경</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.18" data-category="G1">
+								<h3 class="content__item-title">이훈구 이사/사업부장</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.19" data-category="G4">
+								<h3 class="content__item-title">정현미, 이강욱</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.20" data-category="G4">
+								<h3 class="content__item-title">전미경</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.21" data-category="G4">
+								<h3 class="content__item-title">전세영</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.22" data-category="0">
+								<h3 class="content__item-title"></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.23" data-category="G1">
+								<h3 class="content__item-title">신재웅 수석</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.24" data-category="G1">
+								<h3 class="content__item-title">홍지표 부장/팀장</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.25" data-category="G1">
+								<h3 class="content__item-title">박득환 상무/사업부장</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.26" data-category="G9">
+								<h3 class="content__item-title">문인희</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.27" data-category="G9">
+								<h3 class="content__item-title">김혜련</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.28" data-category="0">
+								<h3 class="content__item-title"></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.29" data-category="G5">
+								<h3 class="content__item-title">이재철<sup>(外)</sup></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.30" data-category="G9">
+								<h3 class="content__item-title">임상영</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.31" data-category="G9">
+								<h3 class="content__item-title">정재성</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.32" data-category="G9">
+								<h3 class="content__item-title">이영수</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.33" data-category="GT">
+								<h3 class="content__item-title">김종수</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.34" data-category="GT">
+								<h3 class="content__item-title">김진원</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="3.35" data-category="GT">
+								<h3 class="content__item-title">정은정</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+
+							<!-- 4th Floor(s) -->
+							<div class="content__item" data-space="4.01" data-category="GT">
+								<h3 class="content__item-title">이효훈</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.02" data-category="GT">
+								<h3 class="content__item-title">김종환</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.03" data-category="GT">
+								<h3 class="content__item-title">이충한</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.04" data-category="GT">
+								<h3 class="content__item-title">이성헌</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.05" data-category="GT">
+								<h3 class="content__item-title">안노기</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.06" data-category="GT">
+								<h3 class="content__item-title">이종민</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.07" data-category="GT">
+								<h3 class="content__item-title">유용관</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.08" data-category="0">
+								<h3 class="content__item-title"></h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.09" data-category="GT">
+								<h3 class="content__item-title">정덕영</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.10" data-category="GT">
+								<h3 class="content__item-title">강민성</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.11" data-category="GT">
+								<h3 class="content__item-title">전상돈</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.12" data-category="GT">
+								<h3 class="content__item-title">이상화</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<div class="content__item" data-space="4.13" data-category="GT">
+								<h3 class="content__item-title">조한필</h3>
+								<div class="content__item-details">
+									<p class="content__meta">
+										<span class="content__meta-item"><strong>부서:</strong>연구소</span>
+										<span class="content__meta-item"><strong>휴대폰:</strong>010-0000-0000</span>
+										<span class="content__meta-item"><strong>이메일:</strong>pulip@pulipinc.com</span>
+									</p>
+								</div>
+							</div>
+							<!-- 4th Floor(e) -->
+
+							<!-- close button -->
+							<button class="boxbutton boxbutton--dark content__button content__button--hidden" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
+						</div>
+						<!-- content -->
+					</div>
+					<!-- /main -->
+					<aside class="spaces-list" id="spaces-list">
+						<div class="search">
+							<input class="search__input" placeholder="Search..." />
+							<button class="boxbutton boxbutton--darker close-search" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
+						</div>
+						<span class="label">
 						<input id="sort-by-name" class="label__checkbox" type="checkbox" aria-label="Show alphabetically"/>
 						<label class="label__text">ㄱ - ㅎ</label>
 					</span>
-							<ul class="list grouped-by-category">
-								<!-- data-category 순서별로 정렬해야함 -->
-								<!--					<li class="list__item" data-level="2" data-category="0" data-space="2.01"><a href="#" class="list__link"></a></li>-->
-								<!--					<li class="list__item" data-level="3" data-category="0" data-space="3.22"><a href="#" class="list__link"></a></li>-->
-								<!--					<li class="list__item" data-level="3" data-category="0" data-space="3.28"><a href="#" class="list__link"></a></li>-->
-								<!--					<li class="list__item" data-level="4" data-category="0" data-space="4.08"><a href="#" class="list__link"></a></li>-->
-								<li class="list__item" data-level="3" data-category="1" data-space="3.24"><a href="#" class="list__link">홍지표</a></li>
-								<li class="list__item" data-level="3" data-category="1" data-space="3.23"><a href="#" class="list__link">신재웅</a></li>
-								<li class="list__item" data-level="3" data-category="1" data-space="3.18"><a href="#" class="list__link">이훈구</a></li>
-								<li class="list__item" data-level="3" data-category="1" data-space="3.25"><a href="#" class="list__link">박득환</a></li>
-								<li class="list__item" data-level="3" data-category="2" data-space="3.08"><a href="#" class="list__link">김채이</a></li>
-								<li class="list__item" data-level="3" data-category="2" data-space="3.09"><a href="#" class="list__link">이민희</a></li>
-								<li class="list__item" data-level="3" data-category="2" data-space="3.10"><a href="#" class="list__link">장웅순</a></li>
-								<li class="list__item" data-level="3" data-category="2" data-space="3.11"><a href="#" class="list__link">정태영</a></li>
-								<li class="list__item" data-level="3" data-category="2" data-space="3.13"><a href="#" class="list__link">조성길</a></li>
-								<li class="list__item" data-level="3" data-category="2" data-space="3.14"><a href="#" class="list__link">심승미</a></li>
-								<li class="list__item" data-level="3" data-category="3" data-space="3.12"><a href="#" class="list__link">김소연, 전영준</a></li>
-								<li class="list__item" data-level="3" data-category="3" data-space="3.15"><a href="#" class="list__link">유나희</a></li>
-								<li class="list__item" data-level="3" data-category="3" data-space="3.16"><a href="#" class="list__link">김진선</a></li>
-								<li class="list__item" data-level="3" data-category="3" data-space="3.17"><a href="#" class="list__link">황선진, 박은경</a></li>
-								<li class="list__item" data-level="3" data-category="3" data-space="3.19"><a href="#" class="list__link">정현미, 이강욱</a></li>
-								<li class="list__item" data-level="3" data-category="3" data-space="3.20"><a href="#" class="list__link">전미경</a></li>
-								<li class="list__item" data-level="3" data-category="3" data-space="3.21"><a href="#" class="list__link">전세영</a></li>
-								<li class="list__item" data-level="3" data-category="4" data-space="3.01"><a href="#" class="list__link">남승헌</a></li>
-								<li class="list__item" data-level="3" data-category="4" data-space="3.02"><a href="#" class="list__link">이병준</a></li>
-								<li class="list__item" data-level="3" data-category="4" data-space="3.03"><a href="#" class="list__link">이종원</a></li>
-								<li class="list__item" data-level="3" data-category="4" data-space="3.04"><a href="#" class="list__link">박재길</a></li>
-								<li class="list__item" data-level="3" data-category="4" data-space="3.05"><a href="#" class="list__link">이희정</a></li>
-								<li class="list__item" data-level="3" data-category="4" data-space="3.06"><a href="#" class="list__link">연두희</a></li>
-								<li class="list__item" data-level="3" data-category="4" data-space="3.07"><a href="#" class="list__link">신우용</a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.15"><a href="#" class="list__link">최한솔, 범지훈<sup>(外)</sup></a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.18"><a href="#" class="list__link">박천수</a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.22"><a href="#" class="list__link">이세영</a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.23"><a href="#" class="list__link">김성훈</a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.24"><a href="#" class="list__link">이성현</a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.25"><a href="#" class="list__link">송제우</a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.26"><a href="#" class="list__link">이환석</a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.27"><a href="#" class="list__link">최소은</a></li>
-								<li class="list__item" data-level="2" data-category="5" data-space="2.28"><a href="#" class="list__link">오정민</a></li>
-								<li class="list__item" data-level="3" data-category="5" data-space="3.29"><a href="#" class="list__link">이재철</a></li>
-								<li class="list__item" data-level="2" data-category="6" data-space="2.16"><a href="#" class="list__link">황동환</a></li>
-								<li class="list__item" data-level="2" data-category="6" data-space="2.17"><a href="#" class="list__link">김지연</a></li>
-								<li class="list__item" data-level="2" data-category="6" data-space="2.19"><a href="#" class="list__link">손원경</a></li>
-								<li class="list__item" data-level="2" data-category="6" data-space="2.20"><a href="#" class="list__link">김수정</a></li>
-								<li class="list__item" data-level="2" data-category="6" data-space="2.21"><a href="#" class="list__link">주정수</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.02"><a href="#" class="list__link">이두리</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.03"><a href="#" class="list__link">김나현</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.04"><a href="#" class="list__link">박정문</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.05"><a href="#" class="list__link">우인경</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.06"><a href="#" class="list__link">허은지</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.07"><a href="#" class="list__link">이행은</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.08"><a href="#" class="list__link">임노승, 이민호<sup>(外)</sup></a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.09"><a href="#" class="list__link">박보람</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.10"><a href="#" class="list__link">안정화</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.11"><a href="#" class="list__link">김민철</a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.12"><a href="#" class="list__link">정민영, 김지희<sup>(外)</sup></a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.13"><a href="#" class="list__link">이혜령, 정유진<sup>(外)</sup></a></li>
-								<li class="list__item" data-level="2" data-category="7" data-space="2.14"><a href="#" class="list__link">정은지, 박혜경<sup>(外)</sup></a></li>
-								<li class="list__item" data-level="3" data-category="8" data-space="3.26"><a href="#" class="list__link">문인희</a></li>
-								<li class="list__item" data-level="3" data-category="8" data-space="3.27"><a href="#" class="list__link">김혜련</a></li>
-								<li class="list__item" data-level="3" data-category="8" data-space="3.30"><a href="#" class="list__link">임상영</a></li>
-								<li class="list__item" data-level="3" data-category="8" data-space="3.31"><a href="#" class="list__link">정재성</a></li>
-								<li class="list__item" data-level="3" data-category="8" data-space="3.32"><a href="#" class="list__link">이영수</a></li>
-								<li class="list__item" data-level="4" data-category="9" data-space="4.09"><a href="#" class="list__link">정덕영</a></li>
-								<li class="list__item" data-level="4" data-category="9" data-space="4.10"><a href="#" class="list__link">강민성</a></li>
-								<li class="list__item" data-level="4" data-category="9" data-space="4.11"><a href="#" class="list__link">전상돈</a></li>
-								<li class="list__item" data-level="4" data-category="9" data-space="4.12"><a href="#" class="list__link">이상화</a></li>
-								<li class="list__item" data-level="3" data-category="9" data-space="3.35"><a href="#" class="list__link">정은정</a></li>
-								<li class="list__item" data-level="4" data-category="9" data-space="4.01"><a href="#" class="list__link">이효훈</a></li>
-								<li class="list__item" data-level="4" data-category="9" data-space="4.02"><a href="#" class="list__link">김종환</a></li>
-								<li class="list__item" data-level="4" data-category="9" data-space="4.04"><a href="#" class="list__link">이성헌</a></li>
-								<li class="list__item" data-level="4" data-category="10" data-space="4.03"><a href="#" class="list__link">이충한</a></li>
-								<li class="list__item" data-level="3" data-category="10" data-space="3.33"><a href="#" class="list__link">김종수</a></li>
-								<li class="list__item" data-level="3" data-category="10" data-space="3.34"><a href="#" class="list__link">김진원</a></li>
-								<li class="list__item" data-level="4" data-category="10" data-space="4.05"><a href="#" class="list__link">안노기</a></li>
-								<li class="list__item" data-level="4" data-category="10" data-space="4.06"><a href="#" class="list__link">이종민</a></li>
-								<li class="list__item" data-level="4" data-category="10" data-space="4.07"><a href="#" class="list__link">유용관</a></li>
-								<li class="list__item" data-level="4" data-category="10" data-space="4.13"><a href="#" class="list__link">조한필</a></li>
-								<li class="list__item" data-level="1" data-category="11" data-space="1.01"><a href="#" class="list__link">김한울</a></li>
-								<li class="list__item" data-level="1" data-category="11" data-space="1.02"><a href="#" class="list__link">김동민</a></li>
-								<li class="list__item" data-level="1" data-category="11" data-space="1.03"><a href="#" class="list__link">윤지환</a></li>
-								<li class="list__item" data-level="1" data-category="11" data-space="1.04"><a href="#" class="list__link">장준녕</a></li>
-								<li class="list__item" data-level="1" data-category="11" data-space="1.05"><a href="#" class="list__link">윤지원</a></li>
-								<li class="list__item" data-level="1" data-category="11" data-space="1.06"><a href="#" class="list__link">이용준</a></li>
-								<li class="list__item" data-level="1" data-category="11" data-space="1.07"><a href="#" class="list__link">유세리</a></li>
-							</ul>
-						</aside>
-						<!-- /spaces-list -->
-					</div>
+						<ul class="list grouped-by-category">
+							<!-- data-category 순서별로 정렬해야함 -->
+							<!--					<li class="list__item" data-level="2" data-category="0" data-space="2.01"><a href="#" class="list__link"></a></li>-->
+							<!--					<li class="list__item" data-level="3" data-category="0" data-space="3.22"><a href="#" class="list__link"></a></li>-->
+							<!--					<li class="list__item" data-level="3" data-category="0" data-space="3.28"><a href="#" class="list__link"></a></li>-->
+							<!--					<li class="list__item" data-level="4" data-category="0" data-space="4.08"><a href="#" class="list__link"></a></li>-->
+							<li class="list__item" data-level="3" data-category="G1" data-space="3.24"><a href="#" class="list__link">홍지표</a></li>
+							<li class="list__item" data-level="3" data-category="G1" data-space="3.23"><a href="#" class="list__link">신재웅</a></li>
+							<li class="list__item" data-level="3" data-category="G1" data-space="3.18"><a href="#" class="list__link">이훈구</a></li>
+							<li class="list__item" data-level="3" data-category="G1" data-space="3.25"><a href="#" class="list__link">박득환</a></li>
+							<li class="list__item" data-level="3" data-category="G3" data-space="3.08"><a href="#" class="list__link">김채이</a></li>
+							<li class="list__item" data-level="3" data-category="G3" data-space="3.09"><a href="#" class="list__link">이민희</a></li>
+							<li class="list__item" data-level="3" data-category="G3" data-space="3.10"><a href="#" class="list__link">장웅순</a></li>
+							<li class="list__item" data-level="3" data-category="G3" data-space="3.11"><a href="#" class="list__link">정태영</a></li>
+							<li class="list__item" data-level="3" data-category="G3" data-space="3.13"><a href="#" class="list__link">조성길</a></li>
+							<li class="list__item" data-level="3" data-category="G3" data-space="3.14"><a href="#" class="list__link">심승미</a></li>
+							<li class="list__item" data-level="3" data-category="G4" data-space="3.12"><a href="#" class="list__link">김소연, 전영준</a></li>
+							<li class="list__item" data-level="3" data-category="G4" data-space="3.15"><a href="#" class="list__link">유나희</a></li>
+							<li class="list__item" data-level="3" data-category="G4" data-space="3.16"><a href="#" class="list__link">김진선</a></li>
+							<li class="list__item" data-level="3" data-category="G4" data-space="3.17"><a href="#" class="list__link">황선진, 박은경</a></li>
+							<li class="list__item" data-level="3" data-category="G4" data-space="3.19"><a href="#" class="list__link">정현미, 이강욱</a></li>
+							<li class="list__item" data-level="3" data-category="G4" data-space="3.20"><a href="#" class="list__link">전미경</a></li>
+							<li class="list__item" data-level="3" data-category="G4" data-space="3.21"><a href="#" class="list__link">전세영</a></li>
+							<li class="list__item" data-level="3" data-category="G5" data-space="3.01"><a href="#" class="list__link">남승헌</a></li>
+							<li class="list__item" data-level="3" data-category="G5" data-space="3.02"><a href="#" class="list__link">이병준</a></li>
+							<li class="list__item" data-level="3" data-category="G5" data-space="3.03"><a href="#" class="list__link">이종원</a></li>
+							<li class="list__item" data-level="3" data-category="G5" data-space="3.04"><a href="#" class="list__link">박재길</a></li>
+							<li class="list__item" data-level="3" data-category="G5" data-space="3.05"><a href="#" class="list__link">이희정</a></li>
+							<li class="list__item" data-level="3" data-category="G5" data-space="3.06"><a href="#" class="list__link">연두희</a></li>
+							<li class="list__item" data-level="3" data-category="G5" data-space="3.07"><a href="#" class="list__link">신우용</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.15"><a href="#" class="list__link">최한솔, 범지훈<sup>(外)</sup></a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.18"><a href="#" class="list__link">박천수</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.22"><a href="#" class="list__link">이세영</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.23"><a href="#" class="list__link">김성훈</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.24"><a href="#" class="list__link">이성현</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.25"><a href="#" class="list__link">송제우</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.26"><a href="#" class="list__link">이환석</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.27"><a href="#" class="list__link">최소은</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.28"><a href="#" class="list__link">오정민</a></li>
+							<li class="list__item" data-level="3" data-category="G7" data-space="3.29"><a href="#" class="list__link">이재철</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.16"><a href="#" class="list__link">황동환</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.17"><a href="#" class="list__link">김지연</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.19"><a href="#" class="list__link">손원경</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.20"><a href="#" class="list__link">김수정</a></li>
+							<li class="list__item" data-level="2" data-category="G7" data-space="2.21"><a href="#" class="list__link">주정수</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.02"><a href="#" class="list__link">이두리</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.03"><a href="#" class="list__link">김나현</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.04"><a href="#" class="list__link">박정문</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.05"><a href="#" class="list__link">우인경</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.06"><a href="#" class="list__link">허은지</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.07"><a href="#" class="list__link">이행은</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.08"><a href="#" class="list__link">임노승, 이민호<sup>(外)</sup></a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.09"><a href="#" class="list__link">박보람</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.10"><a href="#" class="list__link">안정화</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.11"><a href="#" class="list__link">김민철</a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.12"><a href="#" class="list__link">정민영, 김지희<sup>(外)</sup></a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.13"><a href="#" class="list__link">이혜령, 정유진<sup>(外)</sup></a></li>
+							<li class="list__item" data-level="2" data-category="G8" data-space="2.14"><a href="#" class="list__link">정은지, 박혜경<sup>(外)</sup></a></li>
+							<li class="list__item" data-level="3" data-category="G9" data-space="3.26"><a href="#" class="list__link">문인희</a></li>
+							<li class="list__item" data-level="3" data-category="G9" data-space="3.27"><a href="#" class="list__link">김혜련</a></li>
+							<li class="list__item" data-level="3" data-category="G9" data-space="3.30"><a href="#" class="list__link">임상영</a></li>
+							<li class="list__item" data-level="3" data-category="G9" data-space="3.31"><a href="#" class="list__link">정재성</a></li>
+							<li class="list__item" data-level="3" data-category="G9" data-space="3.32"><a href="#" class="list__link">이영수</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.09"><a href="#" class="list__link">정덕영</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.10"><a href="#" class="list__link">강민성</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.11"><a href="#" class="list__link">전상돈</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.12"><a href="#" class="list__link">이상화</a></li>
+							<li class="list__item" data-level="3" data-category="GT" data-space="3.35"><a href="#" class="list__link">정은정</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.01"><a href="#" class="list__link">이효훈</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.02"><a href="#" class="list__link">김종환</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.04"><a href="#" class="list__link">이성헌</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.03"><a href="#" class="list__link">이충한</a></li>
+							<li class="list__item" data-level="3" data-category="GT" data-space="3.33"><a href="#" class="list__link">김종수</a></li>
+							<li class="list__item" data-level="3" data-category="GT" data-space="3.34"><a href="#" class="list__link">김진원</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.05"><a href="#" class="list__link">안노기</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.06"><a href="#" class="list__link">이종민</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.07"><a href="#" class="list__link">유용관</a></li>
+							<li class="list__item" data-level="4" data-category="GT" data-space="4.13"><a href="#" class="list__link">조한필</a></li>
+							<li class="list__item" data-level="1" data-category="GZ" data-space="1.01"><a href="#" class="list__link">김한울</a></li>
+							<li class="list__item" data-level="1" data-category="GZ" data-space="1.02"><a href="#" class="list__link">김동민</a></li>
+							<li class="list__item" data-level="1" data-category="GZ" data-space="1.03"><a href="#" class="list__link">윤지환</a></li>
+							<li class="list__item" data-level="1" data-category="GZ" data-space="1.04"><a href="#" class="list__link">장준녕</a></li>
+							<li class="list__item" data-level="1" data-category="GZ" data-space="1.05"><a href="#" class="list__link">윤지원</a></li>
+							<li class="list__item" data-level="1" data-category="GZ" data-space="1.06"><a href="#" class="list__link">이용준</a></li>
+							<li class="list__item" data-level="1" data-category="GZ" data-space="1.07"><a href="#" class="list__link">유세리</a></li>
+						</ul>
+					</aside>
+					<!-- /spaces-list -->
 				</div>
 			</div>
-			
 		</div>
-
-	    <!-- 좌석배치도 js -->
-		<script src="/js/seat/classie.js"></script>
-		<script src="/js/seat/list.min.js"></script>
-		<script src="/js/seat/main.js"></script>
-
 	</section>
 
+</div>
+
+<!-- 좌석배치도 js -->
+<script src="js/classie.js"></script>
+<script src="js/list.min.js"></script>
+<script src="js/main.js"></script>
+
+</section>
 
 
-    </div>
-    <!-- //.container e -->
-    	
-    		
- 	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
-	<script src="https://member.pulipinc.com/js/ui/bootstrap.min.js"></script>
-	<script src="https://member.pulipinc.com/js/ui/common.js"></script>
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="https://member.pulipinc.com/js/ui/ie10-viewport-bug-workaround.js"></script>
+
+</div>
+<!-- //.container e -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
+<script src="https://member.pulipinc.com/js/ui/bootstrap.min.js"></script>
+<script src="https://member.pulipinc.com/js/ui/common.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="https://member.pulipinc.com/js/ui/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
