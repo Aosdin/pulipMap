@@ -70,13 +70,6 @@ button:focus {
 	margin:-60px -94px;
 }
 
-@media (min-width: 1024px) {
-	.pulipMap {
-		margin: -60px -70px;
-	}
-
-
-}
 .container {
 	position: relative;
 	width: 100%;
@@ -253,6 +246,11 @@ button:focus {
 	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+}
+.level:hover {
+	outline-color: #c80520;
+	outline-style: auto;
+	outline-width: thin;
 }
 
 .level img {
