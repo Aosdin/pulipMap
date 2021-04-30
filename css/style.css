@@ -162,13 +162,14 @@ button:focus {
 .mapWrap {
 	position: relative;
 	overflow: hidden;
-	width: calc(100vw - 215px);
+	width: calc(100% - 130px);
 	height: 100vh;
+	margin-left:-15px;
 }
 
 .mall {
 	position: relative;
-	width: 100%;
+	width:100%;
 	height: 100%;
 	pointer-events: none;
 	-webkit-perspective: 3500px;
@@ -216,9 +217,9 @@ button:focus {
 }
 
 .levels {
-	width: 120vmin;
-	height: 53.57vmin;
-	margin: -32vmin 0 0 -58vmin;
+	width: 89.6vmin;
+	height: 40vmin;
+	margin: -22vmin 0 0 -42vmin;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transform-style: preserve-3d;
@@ -233,9 +234,9 @@ button:focus {
 
 /* 평면도 추가 */
 .levels.levels--open {
-	width: 120vmin;
-	height: 53.57vmin;
-	margin: -28vmin 0 0 -63.5vmin;
+	width: 112vmin;
+	height: 50vmin;
+	margin: -25vmin 0 0 -58vmin;
 	-webkit-transform: rotateX(0) rotateZ(0) translateZ(0);
 	transform: rotateX(0) rotateZ(0) translateZ(0);
 }
@@ -656,7 +657,7 @@ button:focus {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 215px;
+	width: 160px;
 	min-height: 100vh;
 	padding: 5em 0 1em;
 	background: #fff;
@@ -750,7 +751,7 @@ input[type=checkbox].label__checkbox {
 .grouped-by-category :not([data-category='GT']) + [data-category='GT'],
 .grouped-by-category [data-category='GZ']:first-child,
 .grouped-by-category :not([data-category='GZ']) + [data-category='GZ'] {
-	margin-top: 4em;
+	margin-top: 3em;
 }
 
 .grouped-by-category [data-category='G1']:first-child::before,
@@ -780,6 +781,7 @@ input[type=checkbox].label__checkbox {
 	top: -2.5em;
 	left: 0;
 	color: #c7c7c9;
+	font-weight:700;
 }
 
 .grouped-by-category [data-category='G1']:first-child::before,
@@ -878,8 +880,8 @@ input[type=checkbox].label__checkbox {
 
 .pin {
 	position: absolute;
-	width:5.4vmin;
-	height:8.2vmin;
+	width:5.1vmin;
+	height:7.7vmin;
 	/*margin: -8.25vmin 0 0 -2.25vmin; !* let the bottom tip be the reference point for individual coordinates *!*/
 	/*-webkit-transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg);*/
 	/*transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg);*/
@@ -924,7 +926,7 @@ input[type=checkbox].label__checkbox {
 .pin .pin__icon span{
 	display:block;
 	/*font-size:0.7vmin;*/
-	font-size:1.5vmin;
+	font-size:1.2vmin;
 }
 
 .level__pins--active .pin__icon {
@@ -998,95 +1000,95 @@ input[type=checkbox].label__checkbox {
 }
 
 /* Pins for floor 1 */
-.pin--1-1 { top: 13.6vmin; left: 7vmin; width:8.3vmin; height:5.5vmin; }
-.pin--1-2 { top: 19vmin; left: 7vmin; width:8.3vmin; height:5.5vmin; }
-.pin--1-3 { top: 34.4vmin; left: 7vmin; width:8.3vmin; height:5.5vmin; }
-.pin--1-4 { top: 39.8vmin; left: 7vmin; width:8.3vmin; height:5.5vmin; }
-.pin--1-5 { top: 34.4vmin; left: 23.7vmin; width:8.3vmin; height:5.5vmin; }
-.pin--1-6 { top: 39.8vmin; left: 23.7vmin; width:8.3vmin; height:5.5vmin; }
-.pin--1-7 { top: 34.4vmin; left: 40.2vmin; width:5.5vmin; height:10.7vmin; }
+.pin--1-1 { top: 12.6vmin; left: 6.6vmin; width:7.7vmin; height:5.2vmin; }
+.pin--1-2 { top: 17.7vmin; left: 6.6vmin; width:7.7vmin; height:5.2vmin; }
+.pin--1-3 { top: 32vmin; left: 6.6vmin; width:7.7vmin; height:5.2vmin; }
+.pin--1-4 { top: 37.1vmin; left: 6.6vmin; width:7.7vmin; height:5.2vmin; }
+.pin--1-5 { top: 32vmin; left: 22.1vmin; width:7.7vmin; height:5.2vmin; }
+.pin--1-6 { top: 37.1vmin; left: 22.1vmin; width:7.7vmin; height:5.2vmin; }
+.pin--1-7 { top: 32vmin; left: 37.5vmin; width:5.2vmin; height:10.2vmin; }
 
 /* Pins for floor 2 */
-.pin--2-1 { top: 15.6vmin; left: 31.2vmin; }
-.pin--2-2 { top: 23.7vmin; left: 31.2vmin; }
-.pin--2-3 { top: 31.8vmin; left: 31.2vmin; }
-.pin--2-4 { top: 39.9vmin; left: 31.2vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--2-5 { top: 31.8vmin; left: 36.4vmin; }
-.pin--2-6 { top: 23.7vmin; left: 36.4vmin; }
-.pin--2-7 { top: 15.6vmin; left: 36.4vmin; }
-.pin--2-8 { top: 15.6vmin; left: 54.3vmin; }
-.pin--2-9 { top: 23.7vmin; left: 54.3vmin; }
-.pin--2-10 { top: 31.8vmin; left: 54.3vmin; }
-.pin--2-11 { top: 39.9vmin; left: 54.3vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--2-12 { top: 31.8vmin; left: 59.5vmin; }
-.pin--2-13 { top: 23.7vmin; left: 59.5vmin; }
-.pin--2-14 { top: 15.6vmin; left: 59.5vmin; }
-.pin--2-15 { top: 15.6vmin; left: 77.7vmin; }
-.pin--2-16 { top: 23.7vmin; left: 77.7vmin; }
-.pin--2-17 { top: 31.8vmin; left: 77.7vmin; }
-.pin--2-18 { top: 39.9vmin; left: 77.7vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--2-19 { top: 31.8vmin; left: 83vmin; }
-.pin--2-20 { top: 23.7vmin; left: 83vmin; }
-.pin--2-21 { top: 15.6vmin; left: 83vmin; }
-.pin--2-22 { top: 15.6vmin; left: 100.8vmin; }
-.pin--2-23 { top: 23.7vmin; left: 100.8vmin; }
-.pin--2-24 { top: 31.8vmin; left: 100.8vmin; }
-.pin--2-25 { top: 39.9vmin; left: 100.8vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--2-26 { top: 31.8vmin; left: 106.1vmin; }
-.pin--2-27 { top: 23.7vmin; left: 106.1vmin; }
-.pin--2-28 { top: 15.6vmin; left: 106.1vmin; }
+.pin--2-1 { top: 14.6vmin; left: 29.1vmin; }
+.pin--2-2 { top: 22.2vmin; left: 29.1vmin; }
+.pin--2-3 { top: 29.8vmin; left: 29.1vmin; }
+.pin--2-4 { top: 37.3vmin; left: 29.1vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--2-5 { top: 29.8vmin; left: 34.1vmin; }
+.pin--2-6 { top: 22.2vmin; left: 34.1vmin; }
+.pin--2-7 { top: 14.6vmin; left: 34.1vmin; }
+.pin--2-8 { top: 14.6vmin; left: 50.7vmin; }
+.pin--2-9 { top: 22.2vmin; left: 50.7vmin; }
+.pin--2-10 { top: 29.8vmin; left: 50.7vmin; }
+.pin--2-11 { top: 37.3vmin; left: 50.7vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--2-12 { top: 29.8vmin; left: 55.7vmin; }
+.pin--2-13 { top: 22.2vmin; left: 55.7vmin; }
+.pin--2-14 { top: 14.6vmin; left: 55.7vmin; }
+.pin--2-15 { top: 14.6vmin; left: 72.4vmin; }
+.pin--2-16 { top: 22.2vmin; left: 72.4vmin; }
+.pin--2-17 { top: 29.8vmin; left: 72.4vmin; }
+.pin--2-18 { top: 37.3vmin; left: 72.4vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--2-19 { top: 29.8vmin; left: 77.4vmin; }
+.pin--2-20 { top: 22.2vmin; left: 77.4vmin; }
+.pin--2-21 { top: 14.6vmin; left: 77.4vmin; }
+.pin--2-22 { top: 14.6vmin; left: 93.9vmin; }
+.pin--2-23 { top: 22.2vmin; left: 93.9vmin; }
+.pin--2-24 { top: 29.8vmin; left: 93.9vmin; }
+.pin--2-25 { top: 37.3vmin; left: 93.9vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--2-26 { top: 29.8vmin; left: 98.9vmin; }
+.pin--2-27 { top: 22.2vmin; left: 98.9vmin; }
+.pin--2-28 { top: 14.6vmin; left: 98.9vmin; }
 
 /* Pins for floor 3 */
-.pin--3-1 { top: 15.6vmin; left: 8.2vmin; }
-.pin--3-2 { top: 23.7vmin; left: 8.2vmin; }
-.pin--3-3 { top: 31.8vmin; left: 8.2vmin; }
-.pin--3-4 { top: 39.9vmin; left: 8.2vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--3-5 { top: 31.8vmin; left: 13.4vmin; }
-.pin--3-6 { top: 23.7vmin; left: 13.4vmin; }
-.pin--3-7 { top: 15.6vmin; left: 13.4vmin; }
-.pin--3-8 { top: 15.6vmin; left: 31.2vmin; }
-.pin--3-9 { top: 23.7vmin; left: 31.2vmin; }
-.pin--3-10 { top: 31.8vmin; left: 31.2vmin; }
-.pin--3-11 { top: 39.9vmin; left: 31.2vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--3-12 { top: 31.8vmin; left: 36.4vmin; }
-.pin--3-13 { top: 23.7vmin; left: 36.4vmin; }
-.pin--3-14 { top: 15.6vmin; left: 36.4vmin; }
-.pin--3-15 { top: 15.6vmin; left: 54.3vmin; }
-.pin--3-16 { top: 23.7vmin; left: 54.3vmin; }
-.pin--3-17 { top: 31.8vmin; left: 54.3vmin; }
-.pin--3-18 { top: 39.9vmin; left: 54.3vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--3-19 { top: 31.8vmin; left: 59.5vmin; }
-.pin--3-20 { top: 23.7vmin; left: 59.5vmin; }
-.pin--3-21 { top: 15.6vmin; left: 59.5vmin; }
-.pin--3-22 { top: 15.6vmin; left: 77.6vmin; }
-.pin--3-23 { top: 23.7vmin; left: 77.6vmin; }
-.pin--3-24 { top: 31.8vmin; left: 77.6vmin; }
-.pin--3-25 { top: 39.9vmin; left: 77.6vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--3-26 { top: 31.8vmin; left: 82.9vmin; }
-.pin--3-27 { top: 23.7vmin; left: 82.9vmin; }
-.pin--3-28 { top: 15.6vmin; left: 82.9vmin; }
-.pin--3-29 { top: 15.6vmin; left: 100.8vmin; }
-.pin--3-30 { top: 23.7vmin; left: 100.8vmin; }
-.pin--3-31 { top: 31.8vmin; left: 100.8vmin; }
-.pin--3-32 { top: 39.9vmin; left: 100.8vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--3-33 { top: 31.8vmin; left: 106.1vmin; }
-.pin--3-34 { top: 23.7vmin; left: 106.1vmin; }
-.pin--3-35 { top: 15.6vmin; left: 106.1vmin; }
+.pin--3-1 { top: 14.6vmin; left: 7.6vmin; }
+.pin--3-2 { top: 22.2vmin; left: 7.6vmin; }
+.pin--3-3 { top: 29.8vmin; left: 7.6vmin; }
+.pin--3-4 { top: 37.3vmin; left: 7.6vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--3-5 { top: 29.8vmin; left: 12.5vmin; }
+.pin--3-6 { top: 22.2vmin; left: 12.5vmin; }
+.pin--3-7 { top: 14.6vmin; left: 12.5vmin; }
+.pin--3-8 { top: 14.6vmin; left: 29.1vmin; }
+.pin--3-9 { top: 22.2vmin; left: 29.1vmin; }
+.pin--3-10 { top: 29.8vmin; left: 29.1vmin; }
+.pin--3-11 { top: 37.3vmin; left: 29.1vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--3-12 { top: 29.8vmin; left: 34.1vmin; }
+.pin--3-13 { top: 22.2vmin; left: 34.1vmin; }
+.pin--3-14 { top: 14.6vmin; left: 34.1vmin; }
+.pin--3-15 { top: 14.6vmin; left: 50.7vmin; }
+.pin--3-16 { top: 22.2vmin; left: 50.7vmin; }
+.pin--3-17 { top: 29.8vmin; left: 50.7vmin; }
+.pin--3-18 { top: 37.3vmin; left: 50.7vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--3-19 { top: 29.8vmin; left: 55.7vmin; }
+.pin--3-20 { top: 22.2vmin; left: 55.7vmin; }
+.pin--3-21 { top: 14.6vmin; left: 55.7vmin; }
+.pin--3-22 { top: 14.6vmin; left: 72.4vmin; }
+.pin--3-23 { top: 22.2vmin; left: 72.4vmin; }
+.pin--3-24 { top: 29.8vmin; left: 72.4vmin; }
+.pin--3-25 { top: 37.3vmin; left: 72.4vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--3-26 { top: 29.8vmin; left: 77.4vmin; }
+.pin--3-27 { top: 22.2vmin; left: 77.4vmin; }
+.pin--3-28 { top: 14.6vmin; left: 77.4vmin; }
+.pin--3-29 { top: 14.6vmin; left: 93.9vmin; }
+.pin--3-30 { top: 22.2vmin; left: 93.9vmin; }
+.pin--3-31 { top: 29.8vmin; left: 93.9vmin; }
+.pin--3-32 { top: 37.3vmin; left: 93.9vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--3-33 { top: 29.8vmin; left: 98.9vmin; }
+.pin--3-34 { top: 22.2vmin; left: 98.9vmin; }
+.pin--3-35 { top: 14.6vmin; left: 98.9vmin; }
 
 /* Pins for floor 4 */
-.pin--4-1 { top: 15.6vmin; left: 8.2vmin; }
-.pin--4-2 { top: 23.7vmin; left: 8.2vmin; }
-.pin--4-3 { top: 31.8vmin; left: 8.2vmin; }
-.pin--4-4 { top: 39.9vmin; left: 8.2vmin; width: 10.6vmin; height: 5.6vmin; }
-.pin--4-5 { top: 31.8vmin; left: 13.4vmin;}
-.pin--4-6 { top: 23.7vmin; left: 13.4vmin;}
-.pin--4-7 { top: 15.6vmin; left: 13.4vmin;}
-.pin--4-8 { top: 15.6vmin; left: 31.3vmin;}
-.pin--4-9 { top: 23.7vmin; left: 31.3vmin;}
-.pin--4-10 { top: 31.8vmin; left: 31.3vmin;}
-.pin--4-11 { top: 31.8vmin; left: 36.4vmin;}
-.pin--4-12 { top: 23.7vmin; left: 36.4vmin;}
-.pin--4-13 { top: 15.6vmin; left: 36.4vmin;}
+.pin--4-1 { top: 14.6vmin; left: 7.6vmin; }
+.pin--4-2 { top: 22.2vmin; left: 7.6vmin; }
+.pin--4-3 { top: 29.8vmin; left: 7.6vmin; }
+.pin--4-4 { top: 37.3vmin; left: 7.6vmin; width: 10.1vmin; height: 5.1vmin; }
+.pin--4-5 { top: 29.8vmin; left: 12.5vmin;}
+.pin--4-6 { top: 22.2vmin; left: 12.5vmin;}
+.pin--4-7 { top: 14.6vmin; left: 12.5vmin;}
+.pin--4-8 { top: 14.6vmin; left: 29.1vmin;}
+.pin--4-9 { top: 22.2vmin; left: 29.1vmin;}
+.pin--4-10 { top: 29.8vmin; left: 29.1vmin;}
+.pin--4-11 { top: 29.8vmin; left: 34.1vmin;}
+.pin--4-12 { top: 22.2vmin; left: 34.1vmin;}
+.pin--4-13 { top: 14.6vmin; left: 34.1vmin;}
 
 /* Mobile compatability */
 .open-search,
