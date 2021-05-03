@@ -70,7 +70,7 @@ button:focus {
 	margin:-60px -94px;
 }
 
-.container {
+.contentBox {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -155,9 +155,8 @@ button:focus {
 .mapWrap {
 	position: relative;
 	overflow: hidden;
-	width: calc(100% - 130px);
+	width: calc(100% - 160px);
 	height: 100vh;
-	margin-left:-15px;
 }
 
 .mall {
@@ -251,6 +250,10 @@ button:focus {
 	outline-color: #c80520;
 	outline-style: auto;
 	outline-width: thin;
+}
+
+.levels--open .level:hover {
+	outline:none;
 }
 
 .level img {
@@ -1094,7 +1097,19 @@ input[type=checkbox].label__checkbox {
 	display: none;
 }
 
-@media screen and (max-width: 65.625em), screen and (max-height: 40.625em) {
+@media screen and (min-width:1600px) {
+	.pulipMap{margin:-60px -94px;}
+}
+@media screen and (min-width:1024px) and (max-width:1600px) {
+	.pulipMap{margin:-60px -70px;}
+}
+@media screen and (max-width:1024px) {
+	.pulipMap{margin:0;}
+	.spaces-list {width:80px;}
+	.grouped-by-category li[data-category]::before{content:none;}
+}
+
+/*@media screen and (max-width: 65.625em), screen and (max-height: 40.625em) {
 	.mapWrap {
 		width: 100vw;
 	}
@@ -1119,7 +1134,7 @@ input[type=checkbox].label__checkbox {
 	.mallnav {
 		top: 4em;
 	}
-	.container {
+	.contentBox {
 		overflow: hidden;
 	}
 	.container--overflow {
@@ -1132,4 +1147,4 @@ input[type=checkbox].label__checkbox {
 		padding-right: 4em;
 		text-align: left;
 	}
-}
+}*/
